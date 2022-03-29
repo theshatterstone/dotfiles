@@ -74,11 +74,11 @@ local themes = {
     "pro-medium-light",   -- 5
 }
 
-local chosen_theme = themes[1]
+local chosen_theme = themes[4]
 local modkey       = "Mod4"
 local altkey       = "Mod4"
-local terminal     = "xterm"
-local editor       = os.getenv("EDITOR") or "nano"
+local terminal     = "gnome-terminal"
+local editor       = os.getenv("EDITOR") or "text-editor"
 local gui_editor   = "gvim"
 local browser      = "firefox"
 local guieditor    = "subl3"
@@ -623,9 +623,9 @@ globalkeys = gears.table.join(
         end,
         {description = "focus previous by index", group = "client"}
     ),
-    awful.key({ modkey,           }, "w", function () mymainmenu:show() end,
-              {description = "show main menu", group = "awesome"}
-    ),
+    --awful.key({ modkey,           }, "w", function () mymainmenu:show() end,
+    --          {description = "show main menu", group = "awesome"}
+    --),
 
     -- Layout manipulation
     awful.key({ modkey, "Shift"   }, "j", function () awful.client.swap.byidx(  1)    end,
@@ -694,6 +694,15 @@ globalkeys = gears.table.join(
     
     awful.key({ modkey },            "l",     function () awful.util.spawn('rofi -show drun') end,
               {description = "run rofi drun", group = "launcher"}),
+
+    awful.key({ modkey },            "w",     function () awful.util.spawn('firefox') end,
+              {description = "run firefox", group = "launcher"}),
+
+    awful.key({ modkey },            "Delete",     function () awful.util.spawn('shutdown now') end,
+              {description = "shutdown now", group = "launcher"}),
+
+    awful.key({ modkey, "Shift" },            "Delete",     function () awful.util.spawn('reboot') end,
+              {description = "reboot now", group = "launcher"}),
 
     awful.key({ modkey }, "x",
               function ()
