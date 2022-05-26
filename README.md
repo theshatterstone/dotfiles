@@ -7,12 +7,16 @@ Arch:
 sudo pacman -S alacritty awesome conky htop nano neofetch nitrogen rofi dmenu thunar
 
 Deb:
+
 sudo apt install alacritty awesome conky htop nano neofetch nitrogen rofi dmenu thunar
 
 
 Post-install:
+
 cd dotfiles/
+
 cp -r .config/ ~/
+
 cp .bashrc ~/
 
 
