@@ -4,7 +4,9 @@ My dotfiles
 To Configure, replace your .config/ and .bashrc to mine. Applications required: 
 
 Arch:
+
 sudo pacman -S alacritty awesome conky htop nano neofetch nitrogen rofi dmenu thunar
+
 
 Deb:
 
