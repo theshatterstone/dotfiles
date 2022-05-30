@@ -22,8 +22,8 @@ cp -r .config/ ~/
 cp .bashrc ~/
 
 
-If you have custom configurations in your .config folder, move the subdirectiories in my .config to your own. If I have any configurations that conflict with yours, move your directories to a temporary location to try out my setup. 
-
-If rc.lua doesn't work, remember to try changing it to the alternative file offered outside my .config directory. If you're still having problems, try rc.lua from backup/ directory.
-
-WARNING: rc.lua doesn't work, use the one from backup/
+rc.lua should work now that I've finally gotten around to fixing these dotfiles. 
+At the time of writing this paragraph, it's 10:54 UK time on the 30th May 2022, 
+and I just want to declare proudly that this commit I'm about to do has had all of the changes 
+done entirely in the terminal, while this Readme paragraph has been written in Vim. 
+Safe to say I'm very proud of myself! I'm probably never removing this BTW.
