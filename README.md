@@ -17,9 +17,8 @@ Post-install:
 
 cd dotfiles/
 
-cp -r .config/ ~/
+cp -r * ~/
 
-cp .bashrc ~/
 
 
 rc.lua should work now that I've finally gotten around to fixing these dotfiles. 
