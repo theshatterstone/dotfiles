@@ -1,16 +1,22 @@
 # dotfiles
 My dotfiles
 
-To Configure, replace your .config/ and .bashrc to mine. Applications required: 
+To Configure, replace your .config/ and .bashrc to mine. 
+Step 1: Download files:
+
+git clone https://github.com/theshatterstone/dotfiles
+
+step 2: Downloading Applications: 
+Applications required: 
 
 Arch:
 
-sudo pacman -S alacritty awesome conky htop nano neofetch nitrogen rofi dmenu thunar
+sudo pacman -S alacritty awesome conky htop nano neofetch nitrogen rofi dmenu thunar qtile
 
 
 Deb:
 
-sudo apt install alacritty awesome conky htop nano neofetch nitrogen rofi dmenu thunar
+sudo apt install alacritty awesome conky htop nano neofetch nitrogen rofi dmenu thunar qtile
 
 
 Post-install:
