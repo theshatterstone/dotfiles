@@ -25,7 +25,7 @@ cd dotfiles/
 
 cp -r * ~/
 
-NOTE: Awesome requires Awesome and Nerd fonts installed. Qtile requires Ubuntu fonts installed. 
+NOTE:Qtile requires Ubuntu fonts installed. 
 Qtile brightness and volume controls only work with the .local/ files from 
 https://github.com/justinesmithies/qtile-x-dotfiles/ 
 
