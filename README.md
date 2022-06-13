@@ -25,6 +25,9 @@ cd dotfiles/
 
 cp -r * ~/
 
+NOTE: Awesome requires Awesome and Nerd fonts installed. Qtile requires Ubuntu fonts installed. 
+Qtile brightness and volume controls only work with the .local/ files from 
+https://github.com/justinesmithies/qtile-x-dotfiles/ 
 
 
 rc.lua should work now that I've finally gotten around to fixing these dotfiles. 
