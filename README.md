@@ -11,12 +11,12 @@ Applications required:
 
 Arch:
 
-sudo pacman -S alacritty awesome conky htop nano neofetch nitrogen rofi dmenu thunar qtile
+sudo pacman -S alacritty awesome conky htop nano neofetch nitrogen rofi dmenu thunar qtile brightnessctl
 
 
 Deb:
 
-sudo apt install alacritty awesome conky htop nano neofetch nitrogen rofi dmenu thunar qtile
+sudo apt install alacritty awesome conky htop nano neofetch nitrogen rofi dmenu thunar qtile brightnessctl
 
 
 Post-install:
@@ -26,7 +26,7 @@ cd dotfiles/
 cp -r * ~/
 
 NOTE:Qtile requires Ubuntu fonts installed. 
-Qtile brightness and volume controls only work with the .local/ files from 
+Qtile brightness and volume controls only work with the brightnessctl package installed and with the .local/ files from 
 https://github.com/justinesmithies/qtile-x-dotfiles/ 
 
 
