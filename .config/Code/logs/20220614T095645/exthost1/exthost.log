@@ -1,0 +1,36 @@
+[2022-06-14 09:56:47.110] [exthost] [info] Extension host with pid 98224 started
+[2022-06-14 09:56:47.110] [exthost] [info] Skipping acquiring lock for /home/shatterstone/.config/Code/User/workspaceStorage/25590caa4fa8b2b3add5eef46eb95f99.
+[2022-06-14 09:56:47.236] [exthost] [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python'
+[2022-06-14 09:56:47.299] [exthost] [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter, startup: false, activationEvent: 'onLanguage:python'
+[2022-06-14 09:56:47.399] [exthost] [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+[2022-06-14 09:56:47.439] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-06-14 09:56:47.441] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+[2022-06-14 09:56:47.445] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2022-06-14 09:56:47.544] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2022-06-14 09:56:47.562] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-06-14 09:56:47.826] [exthost] [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter-renderers, startup: false, activationEvent: 'api', root cause: ms-toolsai.jupyter
+[2022-06-14 09:56:47.938] [exthost] [info] Eager extensions activated
+[2022-06-14 09:56:47.941] [exthost] [info] ExtensionService#_doActivateExtension ms-python.vscode-pylance, startup: false, activationEvent: 'onLanguage:python'
+[2022-06-14 09:56:48.035] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-06-14 09:56:48.040] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-06-14 09:56:48.043] [exthost] [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+[2022-06-14 09:57:39.807] [exthost] [info] Extension host terminating: received terminate message from renderer
+[2022-06-14 09:57:39.819] [exthost] [info] Extension host with pid 98224 exiting with code 0
+[2022-06-14 09:57:41.183] [exthost] [info] Extension host with pid 99239 started
+[2022-06-14 09:57:41.183] [exthost] [info] Skipping acquiring lock for /home/shatterstone/.config/Code/User/workspaceStorage/23caaaaf290e4a988007b398dd6a206d.
+[2022-06-14 09:57:41.300] [exthost] [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+[2022-06-14 09:57:41.311] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-06-14 09:57:41.312] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*'
+[2022-06-14 09:57:41.314] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2022-06-14 09:57:41.334] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-06-14 09:57:41.339] [exthost] [info] Eager extensions activated
+[2022-06-14 09:57:41.352] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-06-14 09:57:41.356] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-06-14 09:57:41.380] [exthost] [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+[2022-06-14 09:57:42.088] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: 'api', root cause: vscode.github
+[2022-06-14 09:57:44.008] [exthost] [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python'
+[2022-06-14 09:57:44.079] [exthost] [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter, startup: false, activationEvent: 'onLanguage:python'
+[2022-06-14 09:57:44.502] [exthost] [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter-renderers, startup: false, activationEvent: 'api', root cause: ms-toolsai.jupyter
+[2022-06-14 09:57:44.582] [exthost] [info] ExtensionService#_doActivateExtension ms-python.vscode-pylance, startup: false, activationEvent: 'onLanguage:python'
+[2022-06-14 09:59:19.025] [exthost] [info] Extension host terminating: received terminate message from renderer
+[2022-06-14 09:59:19.035] [exthost] [info] Extension host with pid 99239 exiting with code 0

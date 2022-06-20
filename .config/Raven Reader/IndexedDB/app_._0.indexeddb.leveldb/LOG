@@ -1,0 +1,30 @@
+2022/06/18-16:06:28.183 1944 Reusing MANIFEST /home/shatterstone/.config/Raven Reader/IndexedDB/app_._0.indexeddb.leveldb/MANIFEST-000001
+2022/06/18-16:06:28.183 1944 Recovering log #3
+2022/06/18-16:06:28.201 1944 Reusing old log /home/shatterstone/.config/Raven Reader/IndexedDB/app_._0.indexeddb.leveldb/000003.log 
+2022/06/18-16:06:37.330 1944 Level-0 table #5: started
+2022/06/18-16:06:37.352 1944 Level-0 table #5: 1708916 bytes OK
+2022/06/18-16:06:37.354 1944 Delete type=0 #3
+2022/06/19-10:35:34.294 a6b11 Level-0 table #7: started
+2022/06/19-10:35:34.327 a6b11 Level-0 table #7: 1821493 bytes OK
+2022/06/19-10:35:34.330 a6b11 Delete type=0 #4
+2022/06/19-10:35:34.334 a6b11 Compacting 1@1 + 1@2 files
+2022/06/19-10:35:34.370 a6b11 Generated table #8@1: 3380 keys, 2126110 bytes
+2022/06/19-10:35:34.380 a6b11 Generated table #9@1: 3313 keys, 645764 bytes
+2022/06/19-10:35:34.380 a6b11 Compacted 1@1 + 1@2 files => 2771874 bytes
+2022/06/19-10:35:34.381 a6b11 compacted to: files[ 0 0 2 0 0 0 0 ]
+2022/06/19-10:35:34.382 a6b11 Delete type=2 #7
+2022/06/19-10:35:34.382 a6b11 Delete type=2 #5
+2022/06/19-10:35:34.382 a6b11 Level-0 table #11: started
+2022/06/19-10:35:34.402 a6b11 Level-0 table #11: 1832173 bytes OK
+2022/06/19-10:35:34.403 a6b11 Delete type=0 #6
+2022/06/19-10:35:34.413 a6b11 Compacting 1@1 + 2@2 files
+2022/06/19-10:35:34.442 a6b11 Generated table #12@1: 5379 keys, 2126760 bytes
+2022/06/19-10:35:34.465 a6b11 Generated table #13@1: 4485 keys, 1583752 bytes
+2022/06/19-10:35:34.465 a6b11 Compacted 1@1 + 2@2 files => 3710512 bytes
+2022/06/19-10:35:34.466 a6b11 compacted to: files[ 0 0 2 0 0 0 0 ]
+2022/06/19-10:35:34.466 a6b11 Delete type=2 #8
+2022/06/19-10:35:34.466 a6b11 Delete type=2 #11
+2022/06/19-10:35:34.466 a6b11 Delete type=2 #9
+2022/06/19-11:00:02.870 aa5b2 Level-0 table #15: started
+2022/06/19-11:00:02.897 aa5b2 Level-0 table #15: 1754686 bytes OK
+2022/06/19-11:00:02.898 aa5b2 Delete type=0 #10

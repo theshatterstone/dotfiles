@@ -1,0 +1,17 @@
+[2022-06-17T10:38:59.716Z] Log level: Info
+[2022-06-17T10:38:59.717Z] [info] Validating found git in: git
+[2022-06-17T10:38:59.851Z] [info] Using git 2.36.1 from git
+[2022-06-17T10:39:00.047Z] > git rev-parse --show-toplevel [185ms]
+[2022-06-17T10:39:00.063Z] > git rev-parse --git-dir --git-common-dir [8ms]
+[2022-06-17T10:39:00.067Z] [info] Open repository: /home/shatterstone/Documents/Dice-Game-Remastered-1
+[2022-06-17T10:39:00.088Z] > git status -z -uall [13ms]
+[2022-06-17T10:39:00.100Z] > git symbolic-ref --short HEAD [4ms]
+[2022-06-17T10:39:00.110Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+[2022-06-17T10:39:00.159Z] > git remote --verbose [36ms]
+[2022-06-17T10:39:00.161Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [44ms]
+[2022-06-17T10:39:00.185Z] > git config --get commit.template [14ms]
+[2022-06-17T10:39:00.441Z] > git show --textconv :main.py [8ms]
+[2022-06-17T10:39:00.442Z] > git ls-files --stage -- /home/shatterstone/Documents/Dice-Game-Remastered-1/main.py [2ms]
+[2022-06-17T10:39:00.449Z] > git cat-file -s 85382513a40aad7c3dd91432dba88809ebc3908c [1ms]
+[2022-06-17T10:39:00.606Z] > git check-ignore -v -z --stdin [2ms]
+[2022-06-17T10:39:01.395Z] > git config --local branch.main.github-pr-owner-number [54ms]

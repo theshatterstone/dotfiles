@@ -1,0 +1,8 @@
+[2022-06-14 09:57:33.402] [renderer1] [warning] [lifecycle] onBeforeShutdown is taking a long time, pending operations: veto.backups
+[2022-06-14 09:57:39.767] [renderer1] [warning] [backup tracker] suspended, ignoring dirty change event file:///home/shatterstone/.config/qtile/config.py 
+[2022-06-14 09:59:04.935] [renderer1] [error] Unable to read file '/home/shatterstone/Documents/TheCaveman/main.py' (Error: File not modified since): Error: Unable to read file '/home/shatterstone/Documents/TheCaveman/main.py' (Error: File not modified since)
+    at h.doReadFileStream (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:597:20034)
+    at async p.doRead (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2760:42343)
+    at async p.readStream (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2760:42018)
+    at async wr.resolveFromFile (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2749:66850)
+    at async vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2760:36475

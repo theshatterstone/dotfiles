@@ -1,0 +1,18 @@
+Visual Studio Code (1.68.1, undefined, desktop)
+Jupyter Extension Version: 2022.5.1001601848.
+Python Extension Version: 2022.8.0.
+Workspace folder /home/shatterstone/Documents/Dice-Game-Remastered-1
+info 11:38:59.255: ZMQ install verified.
+User belongs to experiment group 'jupyterTest'
+User belongs to experiment group 'jupyterEnhancedDataViewer'
+info 11:38:59.686: LSP Notebooks experiment is disabled -- not in treatment group
+info 11:38:59.805: Experiment status for python is {"enabled":true,"optInto":[],"optOutFrom":[]}
+info 11:39:0.86: Process Execution: > /bin/python -m pip list
+> /bin/python -m pip list
+info 11:39:8.956: Shutting down notebooks for ff1f80a9-3e29-4f81-9792-590b2fe20db3
+info 11:39:8.956: Disposing HostJupyterExecution 049777c2-eef8-41bd-b7ae-c6f5de321241
+info 11:39:8.956: Disposing super HostJupyterExecution 049777c2-eef8-41bd-b7ae-c6f5de321241
+info 11:39:8.957: Disposing HostJupyterExecution 049777c2-eef8-41bd-b7ae-c6f5de321241
+info 11:39:8.957: Finished disposing HostJupyterExecution  049777c2-eef8-41bd-b7ae-c6f5de321241
+info 11:39:8.960: Cleaning up server cache 049777c2-eef8-41bd-b7ae-c6f5de321241
+info 11:39:8.961: Finished disposing HostJupyterExecution  049777c2-eef8-41bd-b7ae-c6f5de321241

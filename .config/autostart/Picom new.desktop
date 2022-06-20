@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Version=1.0
+Type=Application
+Name=Picom new
+Comment=
+Exec=picom -b --config ~/.config/picom.conf
+TryExec=picom -b --config ~/.config/picom.conf
+StartupNotify=false
+X-GNOME-Autostart-enabled=true
+Terminal=false
+Hidden=false

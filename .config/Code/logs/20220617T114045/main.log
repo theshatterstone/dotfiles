@@ -1,0 +1,6 @@
+[2022-06-17 11:40:45.826] [main] [info] update#setState idle
+[2022-06-17 11:40:46.959] [main] [info] Starting extension host with pid 905605 (fork() took 45 ms).
+[2022-06-17 11:41:15.828] [main] [info] update#setState checking for updates
+[2022-06-17 11:41:15.859] [main] [info] update#setState idle
+[2022-06-17 11:41:51.670] [main] [info] Waiting for extension host with pid 905605 to exit.
+[2022-06-17 11:41:51.698] [main] [info] Extension host with pid 905605 exited with code: 0, signal: null.

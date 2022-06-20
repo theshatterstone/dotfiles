@@ -1,0 +1,16 @@
+[Info  - 09:59:26] (101215) Pylance language server 2022.6.10 (pyright bbc42826) starting
+[Info  - 09:59:26] (101215) Server root directory: /home/shatterstone/.vscode/extensions/ms-python.vscode-pylance-2022.6.10/dist
+Notebook support: Legacy
+[Info  - 09:59:26] (101215) No configuration file found.
+[Info  - 09:59:26] (101215) No pyproject.toml file found.
+[Info  - 09:59:26] (101215) Setting pythonPath for service "TheCaveman": "/bin/python"
+[Warn  - 09:59:26] (101215) stubPath /home/shatterstone/Documents/TheCaveman/typings is not a valid directory.
+[Info  - 09:59:26] (101215) Assuming Python version 3.10
+[Info  - 09:59:26] (101215) Assuming Python platform Linux
+[Info  - 09:59:26] (101215) Searching for source files
+[Info  - 09:59:26] (101215) Found 1 source file
+[Info  - 09:59:26] (101215) Background analysis(1) root directory: /home/shatterstone/.vscode/extensions/ms-python.vscode-pylance-2022.6.10/dist
+[Info  - 09:59:26] (101215) Background analysis(1) started
+[Info  - 09:59:26] (101215) Indexer background runner(2) root directory: /home/shatterstone/.vscode/extensions/ms-python.vscode-pylance-2022.6.10/dist (index)
+[Info  - 09:59:26] (101215) Indexing(2) started
+[Info  - 09:59:27] (101215) Indexer done(2). indexed 472 files

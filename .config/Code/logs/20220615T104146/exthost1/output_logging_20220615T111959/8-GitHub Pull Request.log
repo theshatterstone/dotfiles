@@ -1,0 +1,27 @@
+[Info] /home/shatterstone/.ssh/config: ENOENT: no such file or directory, open '/home/shatterstone/.ssh/config'
+[Info] TemporaryState> Error in initialization: Unable to delete nonexistent file '/home/shatterstone/.config/Code/User/globalStorage/github.vscode-pull-request-github/temp'
+[Info] Registering git provider
+[Info] Looking for git repository
+[Info] Found 1 repositories during activation
+[Info] Git repository found, initializing review manager and pr tree view.
+[Info] Review> Validate state in progress
+[Info] Review> Validating state...
+[Info] Found GitHub remote
+[Info] Review> no matching pull request metadata found for current branch main
+[Info] Review> no matching pull request metadata found on GitHub for current branch main
+[Info] PullRequestTree> Removing PR #undefined from tree
+[Info] Found GitHub remote
+[Info] Review> Queuing additional validate state
+[Info] Review> Validating state...
+[Info] Found GitHub remote
+[Info] Found GitHub remote
+[Info] Review> no matching pull request metadata found for current branch main
+[Info] Review> no matching pull request metadata found on GitHub for current branch main
+[Info] PullRequestTree> Removing PR #undefined from tree
+[Info] Review> Queuing additional validate state
+[Info] Review> Validating state...
+[Info] Found GitHub remote
+[Info] Found GitHub remote
+[Info] Review> no matching pull request metadata found for current branch main
+[Info] Review> no matching pull request metadata found on GitHub for current branch main
+[Info] PullRequestTree> Removing PR #undefined from tree

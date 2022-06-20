@@ -1,0 +1,5 @@
+2022/06/09-16:24:19.993 33ec Recovering log #3
+2022/06/09-16:24:20.080 33ec Level-0 table #5: started
+2022/06/09-16:24:20.152 33ec Level-0 table #5: 2784740 bytes OK
+2022/06/09-16:24:20.158 33ec Delete type=3 #2
+2022/06/09-16:24:20.158 33ec Delete type=0 #3

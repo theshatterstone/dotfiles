@@ -1,0 +1,11 @@
+Experiment 'pythonaacf' is active
+Experiment 'pythonTensorboardExperiment' is active
+Experiment 'PythonPyTorchProfiler' is active
+LSP Notebooks experiment is disabled -- not in treatment group
+> conda info --json
+Python interpreter path: /bin/python
+> /bin/python ~/.vscode/extensions/ms-python.python-2022.8.0/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.8.0/pythonFiles/interpreterInfo.py
+> /sbin/python ~/.vscode/extensions/ms-python.python-2022.8.0/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.8.0/pythonFiles/interpreterInfo.py
+> /usr/bin/python ~/.vscode/extensions/ms-python.python-2022.8.0/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.8.0/pythonFiles/interpreterInfo.py
+> /usr/sbin/python ~/.vscode/extensions/ms-python.python-2022.8.0/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.8.0/pythonFiles/interpreterInfo.py
+Starting Pylance language server.

@@ -1,0 +1,6 @@
+2022/06/09-16:10:11.860 3 Reusing MANIFEST /home/shatterstone/.config/BraveSoftware/Brave-Browser/Default/Local Storage/leveldb/MANIFEST-000001
+2022/06/09-16:10:11.861 3 Recovering log #38
+2022/06/09-16:10:11.861 3 Reusing old log /home/shatterstone/.config/BraveSoftware/Brave-Browser/Default/Local Storage/leveldb/000038.log 
+2022/06/09-16:12:26.469 6 Level-0 table #42: started
+2022/06/09-16:12:26.476 6 Level-0 table #42: 18423 bytes OK
+2022/06/09-16:12:26.478 6 Delete type=0 #38

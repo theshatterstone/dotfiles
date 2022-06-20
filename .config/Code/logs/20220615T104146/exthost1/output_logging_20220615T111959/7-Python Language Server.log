@@ -1,0 +1,16 @@
+[Info  - 11:20:04] (113293) Pylance language server 2022.6.10 (pyright bbc42826) starting
+[Info  - 11:20:04] (113293) Server root directory: /home/shatterstone/.vscode/extensions/ms-python.vscode-pylance-2022.6.10/dist
+Notebook support: Legacy
+[Info  - 11:20:04] (113293) No configuration file found.
+[Info  - 11:20:04] (113293) No pyproject.toml file found.
+[Info  - 11:20:04] (113293) Setting pythonPath for service "Dice-Game-Remastered": "/bin/python"
+[Warn  - 11:20:04] (113293) stubPath /home/shatterstone/Documents/Dice-Game-Remastered/typings is not a valid directory.
+[Info  - 11:20:04] (113293) Assuming Python version 3.10
+[Info  - 11:20:04] (113293) Assuming Python platform Linux
+[Info  - 11:20:04] (113293) Searching for source files
+[Info  - 11:20:04] (113293) Found 1 source file
+[Info  - 11:20:04] (113293) Background analysis(1) root directory: /home/shatterstone/.vscode/extensions/ms-python.vscode-pylance-2022.6.10/dist
+[Info  - 11:20:04] (113293) Background analysis(1) started
+[Info  - 11:20:04] (113293) Indexer background runner(2) root directory: /home/shatterstone/.vscode/extensions/ms-python.vscode-pylance-2022.6.10/dist (index)
+[Info  - 11:20:04] (113293) Indexing(2) started
+[Info  - 11:20:06] (113293) Indexer done(2). indexed 474 files

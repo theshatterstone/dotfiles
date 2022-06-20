@@ -1,0 +1,135 @@
+[2022-06-15T10:19:59.451Z] Log level: Info
+[2022-06-15T10:19:59.452Z] [info] Validating found git in: git
+[2022-06-15T10:19:59.482Z] [info] Using git 2.36.1 from git
+[2022-06-15T10:19:59.513Z] > git rev-parse --show-toplevel [21ms]
+[2022-06-15T10:19:59.541Z] > git rev-parse --git-dir --git-common-dir [19ms]
+[2022-06-15T10:19:59.548Z] [info] Open repository: /home/shatterstone/Documents/Dice-Game-Remastered
+[2022-06-15T10:19:59.580Z] > git status -z -uall [24ms]
+[2022-06-15T10:19:59.589Z] > git symbolic-ref --short HEAD [3ms]
+[2022-06-15T10:19:59.597Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [0ms]
+[2022-06-15T10:19:59.616Z] > git remote --verbose [8ms]
+[2022-06-15T10:19:59.616Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [13ms]
+[2022-06-15T10:19:59.627Z] > git config --get commit.template [2ms]
+[2022-06-15T10:20:00.099Z] > git check-ignore -v -z --stdin [1ms]
+[2022-06-15T10:20:03.160Z] > git show --textconv :main.py [347ms]
+[2022-06-15T10:20:03.160Z] > git ls-files --stage -- /home/shatterstone/Documents/Dice-Game-Remastered/main.py [338ms]
+[2022-06-15T10:20:10.826Z] > git status -z -uall [2ms]
+[2022-06-15T10:20:10.841Z] > git symbolic-ref --short HEAD [3ms]
+[2022-06-15T10:20:10.863Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [11ms]
+[2022-06-15T10:20:10.888Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [13ms]
+[2022-06-15T10:20:10.888Z] > git ls-files --stage -- /home/shatterstone/Documents/Dice-Game-Remastered/main.py [26ms]
+[2022-06-15T10:20:10.889Z] > git remote --verbose [2ms]
+[2022-06-15T10:20:10.919Z] > git config --get commit.template [14ms]
+[2022-06-15T10:20:10.920Z] > git show --textconv :main.py [3ms]
+[2022-06-15T10:20:13.983Z] > git check-ignore -v -z --stdin [1ms]
+[2022-06-15T10:21:10.382Z] > git status -z -uall [2ms]
+[2022-06-15T10:21:10.392Z] > git symbolic-ref --short HEAD [1ms]
+[2022-06-15T10:21:10.404Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+[2022-06-15T10:21:10.422Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [10ms]
+[2022-06-15T10:21:10.423Z] > git remote --verbose [2ms]
+[2022-06-15T10:21:10.435Z] > git config --get commit.template [1ms]
+[2022-06-15T10:21:18.553Z] > git status -z -uall [2ms]
+[2022-06-15T10:21:18.565Z] > git symbolic-ref --short HEAD [2ms]
+[2022-06-15T10:21:18.579Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+[2022-06-15T10:21:18.601Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [9ms]
+[2022-06-15T10:21:18.602Z] > git remote --verbose [2ms]
+[2022-06-15T10:21:18.615Z] > git config --get commit.template [1ms]
+[2022-06-15T10:21:23.629Z] > git status -z -uall [1ms]
+[2022-06-15T10:21:23.642Z] > git symbolic-ref --short HEAD [2ms]
+[2022-06-15T10:21:23.653Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+[2022-06-15T10:21:23.674Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [11ms]
+[2022-06-15T10:21:23.674Z] > git remote --verbose [2ms]
+[2022-06-15T10:21:23.688Z] > git config --get commit.template [1ms]
+[2022-06-15T10:21:30.019Z] > git status -z -uall [3ms]
+[2022-06-15T10:21:30.032Z] > git symbolic-ref --short HEAD [2ms]
+[2022-06-15T10:21:30.044Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+[2022-06-15T10:21:30.064Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [11ms]
+[2022-06-15T10:21:30.065Z] > git remote --verbose [2ms]
+[2022-06-15T10:21:30.078Z] > git config --get commit.template [2ms]
+[2022-06-15T10:22:36.699Z] > git add -A -- . [41ms]
+[2022-06-15T10:22:36.713Z] > git -c user.useConfigOnly=true commit --quiet --allow-empty-message --file - [3ms]
+[2022-06-15T10:22:36.713Z] Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: no email was given and auto-detection is disabled
+[2022-06-15T10:22:36.723Z] > git config --get-all user.name [2ms]
+[2022-06-15T10:22:40.966Z] > git status -z -uall [2ms]
+[2022-06-15T10:22:40.988Z] > git symbolic-ref --short HEAD [12ms]
+[2022-06-15T10:22:40.998Z] > git ls-files --stage -- /home/shatterstone/Documents/Dice-Game-Remastered/main.py [11ms]
+[2022-06-15T10:22:41.008Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [11ms]
+[2022-06-15T10:22:41.029Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [11ms]
+[2022-06-15T10:22:41.029Z] > git cat-file -s 85382513a40aad7c3dd91432dba88809ebc3908c [22ms]
+[2022-06-15T10:22:41.030Z] > git remote --verbose [3ms]
+[2022-06-15T10:22:41.044Z] > git config --get commit.template [2ms]
+[2022-06-15T10:22:41.116Z] > git show --textconv :main.py [3ms]
+[2022-06-15T10:23:12.048Z] > git config --local branch.main.github-pr-owner-number [2ms]
+[2022-06-15T10:24:09.729Z] > git config --local branch.main.github-pr-owner-number [5ms]
+[2022-06-15T10:24:15.242Z] > git -c user.useConfigOnly=true commit --quiet --allow-empty-message --file - [2ms]
+[2022-06-15T10:24:15.242Z] Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: no email was given and auto-detection is disabled
+[2022-06-15T10:24:15.256Z] > git config --get-all user.name [1ms]
+[2022-06-15T10:24:24.225Z] > git -c user.useConfigOnly=true commit --quiet --allow-empty-message --file - [1ms]
+[2022-06-15T10:24:24.225Z] Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: no email was given and auto-detection is disabled
+[2022-06-15T10:24:24.242Z] > git config --get-all user.name [2ms]
+[2022-06-15T10:25:29.904Z] > git status -z -uall [1ms]
+[2022-06-15T10:25:29.914Z] > git symbolic-ref --short HEAD [1ms]
+[2022-06-15T10:25:29.926Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+[2022-06-15T10:25:29.946Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [11ms]
+[2022-06-15T10:25:29.947Z] > git remote --verbose [1ms]
+[2022-06-15T10:25:29.958Z] > git config --get commit.template [1ms]
+[2022-06-15T10:25:31.837Z] > git -c user.useConfigOnly=true commit --quiet --allow-empty-message --file - [3ms]
+[2022-06-15T10:25:31.837Z] Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: no email was given and auto-detection is disabled
+[2022-06-15T10:25:31.852Z] > git config --get-all user.name [1ms]
+[2022-06-15T10:29:47.497Z] > git config --local branch.main.github-pr-owner-number [5ms]
+[2022-06-15T10:29:56.098Z] > git clone https://github.com/theshatterstone/Dice-Game-Remastered.git /home/shatterstone/Documents/Dice-Game-Remastered-1 --progress [525ms]
+[2022-06-15T10:29:56.098Z] Cloning into '/home/shatterstone/Documents/Dice-Game-Remastered-1'...
+remote: Enumerating objects: 7, done.        
+remote: Counting objects:  14% (1/7)        remote: Counting objects:  28% (2/7)        remote: Counting objects:  42% (3/7)        remote: Counting objects:  57% (4/7)        remote: Counting objects:  71% (5/7)        remote: Counting objects:  85% (6/7)        remote: Counting objects: 100% (7/7)        remote: Counting objects: 100% (7/7), done.        
+remote: Compressing objects:  14% (1/7)        remote: Compressing objects:  28% (2/7)        remote: Compressing objects:  42% (3/7)        remote: Compressing objects:  57% (4/7)        remote: Compressing objects:  71% (5/7)        remote: Compressing objects:  85% (6/7)        remote: Compressing objects: 100% (7/7)        remote: Compressing objects: 100% (7/7), done.        
+remote: Total 7 (delta 1), reused 0 (delta 0), pack-reused 0        
+Receiving objects:  14% (1/7)Receiving objects:  28% (2/7)Receiving objects:  42% (3/7)Receiving objects:  57% (4/7)Receiving objects:  71% (5/7)Receiving objects:  85% (6/7)Receiving objects: 100% (7/7)Receiving objects: 100% (7/7), 5.52 KiB | 5.52 MiB/s, done.
+Resolving deltas:   0% (0/1)Resolving deltas: 100% (1/1)Resolving deltas: 100% (1/1), done.

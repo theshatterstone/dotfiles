@@ -1,0 +1,2 @@
+[2022-06-17 11:40:47.745] [sharedprocess] [info] Starting worker process with pid 905652 (type: fileWatcher, window: 1).
+[2022-06-17 11:40:47.894] [sharedprocess] [info] Deleted from disk ms-python.vscode-pylance /home/shatterstone/.vscode/extensions/ms-python.vscode-pylance-2022.6.10

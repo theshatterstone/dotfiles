@@ -1,0 +1,86 @@
+[2022-06-19 17:12:22.478] [renderer1] [critical] Extension 'GitHub.vscode-pull-request-github CANNOT USE these API proposals 'tokenInformation, commentsResolvedState'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+[2022-06-19 17:12:22.478] [renderer1] [critical] Extension 'ms-python.python CANNOT USE these API proposals 'quickPickSortByLabel, testObserver, notebookEditor'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+[2022-06-19 17:12:22.478] [renderer1] [critical] Extension 'ms-toolsai.jupyter CANNOT USE these API proposals 'notebookControllerKind, notebookWorkspaceEdit, notebookDebugOptions, notebookDeprecated, notebookEditor, notebookEditorDecorationType, notebookMessaging, notebookMime, notebookCellExecutionState, portsAttributes, quickPickSortByLabel'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+[2022-06-19 17:12:22.521] [renderer1] [info] [GitHub.vscode-pull-request-github]: `remoteHub/pullRequest` is not a valid menu identifier
+[2022-06-19 17:12:25.111] [renderer1] [error] Extension 'GitHub.vscode-pull-request-github' CANNOT use API proposal: tokenInformation.
+Its package.json#enabledApiProposals-property declares:  but NOT tokenInformation.
+ The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api GitHub.vscode-pull-request-github: Error: Extension 'GitHub.vscode-pull-request-github' CANNOT use API proposal: tokenInformation.
+Its package.json#enabledApiProposals-property declares:  but NOT tokenInformation.
+ The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api GitHub.vscode-pull-request-github
+	at f (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:81:65109)
+	at Object.getTokenInformationAtPosition (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:97:39173)
+	at _u (/home/shatterstone/.vscode-oss/extensions/github.vscode-pull-request-github-0.44.0/dist/extension.js:1155:6625)
+	at Ec (/home/shatterstone/.vscode-oss/extensions/github.vscode-pull-request-github-0.44.0/dist/extension.js:1155:6771)
+	at c0.provideHover (/home/shatterstone/.vscode-oss/extensions/github.vscode-pull-request-github-0.44.0/dist/extension.js:1208:53748)
+	at l.provideHover (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:83:132238)
+	at /usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:83:161614
+	at te._withAdapter (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:83:158424)
+	at te.$provideHover (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:83:161590)
+	at s._doInvokeHandler (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:86:13828)
+	at s._invokeHandler (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:86:13512)
+	at s._receiveRequest (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:86:12121)
+	at s._receiveOneMessage (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:86:10843)
+	at /usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:86:8949
+	at g.invoke (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:58:145)
+	at b.deliver (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:58:2265)
+	at v.fire (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:58:1843)
+	at a.fire (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:66:19025)
+	at /usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:102:34863
+	at g.invoke (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:58:145)
+	at b.deliver (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:58:2265)
+	at v.fire (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:58:1843)
+	at a.fire (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:66:19025)
+	at r._receiveMessage (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:66:23606)
+	at /usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:66:21140
+	at g.invoke (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:58:145)
+	at b.deliver (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:58:2265)
+	at v.fire (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:58:1843)
+	at v.acceptChunk (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:66:15856)
+	at /usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:66:14986
+	at Socket.R (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:102:13798)
+	at Socket.emit (node:events:390:28)
+	at addChunk (node:internal/streams/readable:315:12)
+	at readableAddChunk (node:internal/streams/readable:289:9)
+	at Socket.Readable.push (node:internal/streams/readable:228:10)
+	at Pipe.onStreamRead (node:internal/stream_base_commons:199:23)
+[2022-06-19 17:12:25.111] [renderer1] [error] Extension 'GitHub.vscode-pull-request-github' CANNOT use API proposal: tokenInformation.
+Its package.json#enabledApiProposals-property declares:  but NOT tokenInformation.
+ The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api GitHub.vscode-pull-request-github: Error: Extension 'GitHub.vscode-pull-request-github' CANNOT use API proposal: tokenInformation.
+Its package.json#enabledApiProposals-property declares:  but NOT tokenInformation.
+ The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api GitHub.vscode-pull-request-github
+	at f (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:81:65109)
+	at Object.getTokenInformationAtPosition (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:97:39173)
+	at _u (/home/shatterstone/.vscode-oss/extensions/github.vscode-pull-request-github-0.44.0/dist/extension.js:1155:6625)
+	at Ec (/home/shatterstone/.vscode-oss/extensions/github.vscode-pull-request-github-0.44.0/dist/extension.js:1155:6771)
+	at e0.provideHover (/home/shatterstone/.vscode-oss/extensions/github.vscode-pull-request-github-0.44.0/dist/extension.js:1208:37490)
+	at l.provideHover (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:83:132238)
+	at /usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:83:161614
+	at te._withAdapter (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:83:158424)
+	at te.$provideHover (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:83:161590)
+	at s._doInvokeHandler (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:86:13828)
+	at s._invokeHandler (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:86:13512)
+	at s._receiveRequest (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:86:12121)
+	at s._receiveOneMessage (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:86:10843)
+	at /usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:86:8949
+	at g.invoke (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:58:145)
+	at b.deliver (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:58:2265)
+	at v.fire (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:58:1843)
+	at a.fire (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:66:19025)
+	at /usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:102:34863
+	at g.invoke (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:58:145)
+	at b.deliver (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:58:2265)
+	at v.fire (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:58:1843)
+	at a.fire (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:66:19025)
+	at r._receiveMessage (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:66:23606)
+	at /usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:66:21140
+	at g.invoke (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:58:145)
+	at b.deliver (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:58:2265)
+	at v.fire (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:58:1843)
+	at v.acceptChunk (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:66:15856)
+	at /usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:66:14986
+	at Socket.R (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:102:13798)
+	at Socket.emit (node:events:390:28)
+	at addChunk (node:internal/streams/readable:315:12)
+	at readableAddChunk (node:internal/streams/readable:289:9)
+	at Socket.Readable.push (node:internal/streams/readable:228:10)
+	at Pipe.onStreamRead (node:internal/stream_base_commons:199:23)

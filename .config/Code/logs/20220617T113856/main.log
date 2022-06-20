@@ -1,0 +1,8 @@
+[2022-06-17 11:38:56.156] [main] [info] update#setState idle
+[2022-06-17 11:38:57.702] [main] [info] Starting extension host with pid 903387 (fork() took 34 ms).
+[2022-06-17 11:39:08.974] [main] [info] Extension host with pid 903387 exited with code: 0, signal: null.
+[2022-06-17 11:39:09.680] [main] [info] Starting extension host with pid 903801 (fork() took 10 ms).
+[2022-06-17 11:39:26.159] [main] [info] update#setState checking for updates
+[2022-06-17 11:39:26.201] [main] [info] update#setState idle
+[2022-06-17 11:40:31.872] [main] [info] Waiting for extension host with pid 903801 to exit.
+[2022-06-17 11:40:31.879] [main] [info] Extension host with pid 903801 exited with code: 0, signal: null.

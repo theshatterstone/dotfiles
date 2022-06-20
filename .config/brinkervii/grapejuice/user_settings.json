@@ -1,0 +1,79 @@
+{
+  "__version__": 2,
+  "__hardware_profile__": {
+    "graphics_id": "2974e8e64a633c05a87c5e602fc5967b5a173624fe2ce71b71c36156f8402b01",
+    "gpu_vendor_id": 1,
+    "gpu_pci_id": "05:00.0",
+    "gpu_can_do_vulkan": true,
+    "provider_index": 0,
+    "provider_name": "Unknown AMD Radeon GPU @ pci:0000:05:00.0",
+    "should_prime": false,
+    "use_mesa_gl_override": false,
+    "preferred_roblox_renderer_string": "Vulkan",
+    "is_multi_gpu": false,
+    "version": 2
+  },
+  "show_fast_flag_warning": true,
+  "no_daemon_mode": true,
+  "release_channel": "master",
+  "disable_updates": false,
+  "ignore_wine_version": false,
+  "try_profiling_hardware": true,
+  "default_wine_home": "",
+  "wineprefixes": [
+    {
+      "id": "2c2835b9-d23d-45e4-9985-52521f7b79a0",
+      "priority": 0,
+      "name_on_disk": "player",
+      "display_name": "Player",
+      "wine_home": "",
+      "dll_overrides": "dxdiagn=;winemenubuilder.exe=",
+      "prime_offload_sink": -1,
+      "use_mesa_gl_override": false,
+      "enable_winedebug": false,
+      "winedebug_string": "",
+      "roblox_renderer": "Vulkan",
+      "env": {},
+      "hints": [
+        "player",
+        "app"
+      ],
+      "fast_flags": {
+        "roblox_studio": {},
+        "roblox_player": {},
+        "roblox_app": {}
+      },
+      "third_party": {
+        "fps_unlocker": false,
+        "dxvk": false
+      }
+    },
+    {
+      "id": "5e83668d-c80f-415d-80a7-43955a748669",
+      "priority": 0,
+      "name_on_disk": "studio",
+      "display_name": "Studio",
+      "wine_home": "",
+      "dll_overrides": "dxdiagn=;winemenubuilder.exe=",
+      "prime_offload_sink": -1,
+      "use_mesa_gl_override": false,
+      "enable_winedebug": false,
+      "winedebug_string": "",
+      "roblox_renderer": "D3D11",
+      "env": {},
+      "hints": [
+        "studio"
+      ],
+      "fast_flags": {
+        "roblox_studio": {},
+        "roblox_player": {},
+        "roblox_app": {}
+      },
+      "third_party": {
+        "fps_unlocker": false,
+        "dxvk": false
+      }
+    }
+  ],
+  "unsupported_settings": {}
+}

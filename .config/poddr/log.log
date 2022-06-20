@@ -1,0 +1,124 @@
+[2022-06-15 11:41:24.210] [info] Main Process :: Storing logs at: /home/shatterstone/.config/poddr/log.log
+[2022-06-15 11:41:24.214] [info] Main Process :: Flags: 
+[2022-06-15 11:41:24.782] [info] Main Process :: Loading MPRIS module.
+[2022-06-15 11:41:24.815] [info] Main Process :: Registering mediakey bindings using DBUS.
+[2022-06-15 11:41:24.817] [info] Main Process :: Trying to register Dbus bindings for gnome
+[2022-06-15 11:41:24.818] [info] Main Process :: Trying to register Dbus bindings for mate
+[2022-06-15 11:41:24.883] [error] ERROR DBusError: The name org.gnome.SettingsDaemon.MediaKeys was not provided by any .service files
+[2022-06-15 11:41:24.883] [error] ERROR DBusError: The name org.mate.SettingsDaemon.MediaKeys was not provided by any .service files
+[2022-06-15 11:41:25.401] [info] App routes :: Initialized routes.
+[2022-06-15 11:41:25.422] [info] Audio service :: Initializing IPC listeners.
+[2022-06-15 11:41:25.422] [info] Audio service :: Initializing Audio.
+[2022-06-15 11:41:25.423] [info] Audio service :: Initializing Event listeners.
+[2022-06-15 11:41:25.423] [info] Audio service :: Initialized audio service.
+[2022-06-15 11:41:25.423] [info] Main Process :: MPRIS => Media update.
+[2022-06-15 11:41:25.424] [info] Hotkeys service :: Loading hotkeys.
+[2022-06-15 11:41:25.441] [info] App setup :: Loaded CSS color variable (#FF9900).
+[2022-06-15 11:41:25.442] [info] App setup :: Loaded Dark theme.
+[2022-06-15 11:41:25.442] [info] App setup :: Checking for updates...
+[2022-06-15 11:41:25.489] [info] Podcast service :: Fetching top 50 podcasts in us (26)
+[2022-06-15 11:41:26.017] [info] App setup :: No updates found.
+[2022-06-15 11:41:27.765] [info] Main Process :: Closing app.
+[2022-06-15 11:41:33.138] [info] Main Process :: Storing logs at: /home/shatterstone/.config/poddr/log.log
+[2022-06-15 11:41:33.144] [info] Main Process :: Flags: 
+[2022-06-15 11:41:33.751] [info] Main Process :: Loading MPRIS module.
+[2022-06-15 11:41:33.782] [info] Main Process :: Registering mediakey bindings using DBUS.
+[2022-06-15 11:41:33.784] [info] Main Process :: Trying to register Dbus bindings for gnome
+[2022-06-15 11:41:33.785] [info] Main Process :: Trying to register Dbus bindings for mate
+[2022-06-15 11:41:33.835] [error] ERROR DBusError: The name org.gnome.SettingsDaemon.MediaKeys was not provided by any .service files
+[2022-06-15 11:41:33.836] [error] ERROR DBusError: The name org.mate.SettingsDaemon.MediaKeys was not provided by any .service files
+[2022-06-15 11:41:34.367] [info] App routes :: Initialized routes.
+[2022-06-15 11:41:34.390] [info] Audio service :: Initializing IPC listeners.
+[2022-06-15 11:41:34.390] [info] Audio service :: Initializing Audio.
+[2022-06-15 11:41:34.391] [info] Audio service :: Initializing Event listeners.
+[2022-06-15 11:41:34.391] [info] Audio service :: Initialized audio service.
+[2022-06-15 11:41:34.391] [info] Hotkeys service :: Loading hotkeys.
+[2022-06-15 11:41:34.392] [info] Main Process :: MPRIS => Media update.
+[2022-06-15 11:41:34.412] [info] App setup :: Loaded CSS color variable (#FF9900).
+[2022-06-15 11:41:34.412] [info] App setup :: Loaded Dark theme.
+[2022-06-15 11:41:34.412] [info] App setup :: Checking for updates...
+[2022-06-15 11:41:34.460] [info] Podcast service :: Fetching top 50 podcasts in us (26)
+[2022-06-15 11:41:34.696] [info] App setup :: No updates found.
+[2022-06-15 11:42:40.514] [info] Podcast service :: Searching using query => linux
+[2022-06-15 11:42:44.103] [info] Podcast service :: Getting Podcastfeed using RSS => https://feeds.fireside.fm/linuxactionnews/rss
+[2022-06-15 11:42:45.874] [info] Podcast service :: Getting Podcastfeed using RSS => https://feeds.fireside.fm/linuxactionnews/rss
+[2022-06-15 11:42:46.857] [info] Toast service :: Showing success toast => Added Linux Action News to favourites!
+[2022-06-15 11:42:46.899] [info] Favourite service :: Added Linux Action News to favourites.
+[2022-06-15 11:42:47.368] [info] Toast service :: Showing success toast => Added Linux Action News to favourites!
+[2022-06-15 11:42:47.375] [info] Favourite service :: Added Linux Action News to favourites.
+[2022-06-15 11:42:54.832] [info] Podcast service :: Getting Podcastfeed using RSS => https://destinationlinux.org/feed/mp3/
+[2022-06-15 11:42:57.487] [info] Toast service :: Showing success toast => Added Destination Linux to favourites!
+[2022-06-15 11:42:57.521] [info] Favourite service :: Added Destination Linux to favourites.
+[2022-06-15 11:43:03.735] [info] Podcast service :: Getting Podcastfeed using RSS => https://tuxdigital.com/feed/thisweekinlinux-mp3
+[2022-06-15 11:43:05.780] [info] Toast service :: Showing success toast => Added This Week in Linux to favourites!
+[2022-06-15 11:43:05.813] [info] Favourite service :: Added This Week in Linux to favourites.
+[2022-06-15 11:43:24.918] [info] Toast service :: Showing error toast => Unfollowed podcast
+[2022-06-15 11:43:24.937] [info] Favourite service :: Removed https://feeds.fireside.fm/linuxactionnews/rss from favourites.
+[2022-06-15 11:43:26.347] [info] Podcast service :: Getting Podcastfeed using RSS => https://destinationlinux.org/feed/mp3/
+[2022-06-15 11:43:30.312] [info] Main Process :: MPRIS => Media update.
+[2022-06-15 11:43:30.392] [info] Audio service :: Playing.
+[2022-06-15 11:43:30.444] [info] Audio service :: Started loading.
+[2022-06-15 11:43:31.541] [info] Audio service :: Can play through.
+[2022-06-15 11:44:14.230] [info] Audio service :: Paused.
+[2022-06-15 11:45:18.120] [info] Audio service :: Playing.
+[2022-06-15 12:27:12.737] [info] Podcast service :: Getting Podcastfeed using RSS => https://tuxdigital.com/feed/thisweekinlinux-mp3
+[2022-06-15 12:30:19.187] [info] Podcast service :: Getting Podcastfeed using RSS => https://tuxdigital.com/feed/thisweekinlinux-mp3
+[2022-06-15 12:39:47.320] [info] Audio service :: Seeking.
+[2022-06-15 12:39:47.324] [info] Audio service :: Can play through.
+[2022-06-15 12:45:58.996] [info] Audio service :: Paused.
+[2022-06-15 12:45:58.998] [info] Audio service :: Podcast ended.
+[2022-06-15 12:45:58.998] [info] Toast service :: Showing toast => Podcast ended
+[2022-06-15 12:45:59.098] [info] PrevPlayed service :: Added https://destinationlinux.org/?p=3872 to previously played episodes.
+[2022-06-15 13:00:20.646] [info] Podcast service :: Getting Podcastfeed using RSS => https://tuxdigital.com/feed/thisweekinlinux-mp3
+[2022-06-15 13:00:22.272] [info] Main Process :: MPRIS => Media update.
+[2022-06-15 13:00:22.310] [info] Audio service :: Playing.
+[2022-06-15 13:00:22.350] [info] Audio service :: Started loading.
+[2022-06-15 13:00:24.957] [info] Audio service :: Can play through.
+[2022-06-18 16:05:43.610] [info] Main Process :: Storing logs at: /home/shatterstone/.config/poddr/log.log
+[2022-06-18 16:05:43.613] [info] Main Process :: Flags: 
+[2022-06-18 16:05:44.280] [info] Main Process :: Loading MPRIS module.
+[2022-06-18 16:05:44.312] [info] Main Process :: Registering mediakey bindings using DBUS.
+[2022-06-18 16:05:44.314] [info] Main Process :: Trying to register Dbus bindings for gnome
+[2022-06-18 16:05:44.315] [info] Main Process :: Trying to register Dbus bindings for mate
+[2022-06-18 16:05:44.373] [error] ERROR DBusError: The name org.gnome.SettingsDaemon.MediaKeys was not provided by any .service files
+[2022-06-18 16:05:44.373] [error] ERROR DBusError: The name org.mate.SettingsDaemon.MediaKeys was not provided by any .service files
+[2022-06-18 16:05:44.910] [info] App routes :: Initialized routes.
+[2022-06-18 16:05:44.939] [info] Audio service :: Initializing IPC listeners.
+[2022-06-18 16:05:44.939] [info] Audio service :: Initializing Audio.
+[2022-06-18 16:05:44.940] [info] Audio service :: Initializing Event listeners.
+[2022-06-18 16:05:44.940] [info] Audio service :: Initialized audio service.
+[2022-06-18 16:05:44.941] [info] Hotkeys service :: Loading hotkeys.
+[2022-06-18 16:05:44.941] [info] Main Process :: MPRIS => Media update.
+[2022-06-18 16:05:44.961] [info] App setup :: Loaded CSS color variable (#FF9900).
+[2022-06-18 16:05:44.962] [info] App setup :: Loaded Dark theme.
+[2022-06-18 16:05:44.962] [info] App setup :: Checking for updates...
+[2022-06-18 16:05:45.009] [info] Podcast service :: Fetching top 50 podcasts in us (26)
+[2022-06-18 16:05:45.262] [info] Audio service :: Started loading.
+[2022-06-18 16:05:45.357] [info] App setup :: No updates found.
+[2022-06-18 16:05:47.849] [info] Audio service :: Can play through.
+[2022-06-18 16:05:49.968] [info] Podcast service :: Getting Podcastfeed using RSS => https://tuxdigital.com/feed/thisweekinlinux-mp3
+[2022-06-18 16:06:01.865] [info] Podcast service :: Getting Podcastfeed using RSS => https://destinationlinux.org/feed/mp3/
+[2022-06-18 16:06:14.314] [info] Main Process :: Closing app.
+[2022-06-19 17:38:18.115] [info] Main Process :: Storing logs at: /home/shatterstone/.config/poddr/log.log
+[2022-06-19 17:38:18.118] [info] Main Process :: Flags: 
+[2022-06-19 17:38:19.277] [info] Main Process :: Loading MPRIS module.
+[2022-06-19 17:38:19.298] [info] Main Process :: Registering mediakey bindings using DBUS.
+[2022-06-19 17:38:19.300] [info] Main Process :: Trying to register Dbus bindings for gnome
+[2022-06-19 17:38:19.300] [info] Main Process :: Trying to register Dbus bindings for mate
+[2022-06-19 17:38:19.341] [error] ERROR DBusError: The name org.gnome.SettingsDaemon.MediaKeys was not provided by any .service files
+[2022-06-19 17:38:19.341] [error] ERROR DBusError: The name org.mate.SettingsDaemon.MediaKeys was not provided by any .service files
+[2022-06-19 17:38:19.740] [info] App routes :: Initialized routes.
+[2022-06-19 17:38:19.760] [info] Audio service :: Initializing IPC listeners.
+[2022-06-19 17:38:19.760] [info] Audio service :: Initializing Audio.
+[2022-06-19 17:38:19.761] [info] Audio service :: Initializing Event listeners.
+[2022-06-19 17:38:19.761] [info] Audio service :: Initialized audio service.
+[2022-06-19 17:38:19.761] [info] Hotkeys service :: Loading hotkeys.
+[2022-06-19 17:38:19.762] [info] Main Process :: MPRIS => Media update.
+[2022-06-19 17:38:19.778] [info] App setup :: Loaded CSS color variable (#FF9900).
+[2022-06-19 17:38:19.778] [info] App setup :: Loaded Dark theme.
+[2022-06-19 17:38:19.778] [info] App setup :: Checking for updates...
+[2022-06-19 17:38:19.814] [info] Podcast service :: Fetching top 50 podcasts in us (26)
+[2022-06-19 17:38:20.157] [info] Audio service :: Started loading.
+[2022-06-19 17:38:20.408] [info] App setup :: No updates found.
+[2022-06-19 17:38:22.389] [info] Audio service :: Can play through.
+[2022-06-19 17:38:26.230] [info] Main Process :: Closing app.

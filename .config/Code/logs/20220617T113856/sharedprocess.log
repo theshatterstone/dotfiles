@@ -1,0 +1,12 @@
+[2022-06-17 11:38:58.618] [sharedprocess] [info] Starting worker process with pid 903437 (type: fileWatcher, window: 1).
+[2022-06-17 11:39:00.935] [sharedprocess] [info] Getting Manifest... ms-python.vscode-pylance
+[2022-06-17 11:39:01.140] [sharedprocess] [info] Installing extension: ms-python.vscode-pylance
+[2022-06-17 11:39:08.952] [sharedprocess] [info] Worker process with pid 903437 terminated normally (type: fileWatcher, window: 1).
+[2022-06-17 11:39:09.683] [sharedprocess] [info] Starting worker process with pid 903800 (type: fileWatcher, window: 1).
+[2022-06-17 11:39:12.375] [sharedprocess] [info] Getting Manifest... ms-python.vscode-pylance
+[2022-06-17 11:39:12.382] [sharedprocess] [info] Extensions is already requested to install ms-python.vscode-pylance
+[2022-06-17 11:39:12.714] [sharedprocess] [info] Downloaded extension: ms-python.vscode-pylance /home/shatterstone/.config/Code/CachedExtensionVSIXs/ms-python.vscode-pylance-2022.6.20
+[2022-06-17 11:39:16.627] [sharedprocess] [info] Extracted extension to /home/shatterstone/.vscode/extensions/.4252812c-a372-4880-9315-c22df8501f27: ms-python.vscode-pylance
+[2022-06-17 11:39:16.646] [sharedprocess] [info] Renamed to /home/shatterstone/.vscode/extensions/ms-python.vscode-pylance-2022.6.20
+[2022-06-17 11:39:16.648] [sharedprocess] [info] Extracting completed. ms-python.vscode-pylance
+[2022-06-17 11:39:16.652] [sharedprocess] [info] Extension installed successfully: ms-python.vscode-pylance

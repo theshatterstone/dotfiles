@@ -1,0 +1,8 @@
+[2022-06-19T15:45:02.380Z] Log level: Info
+[2022-06-19T15:45:02.381Z] [info] Validating found git in: git
+[2022-06-19T15:45:02.397Z] [info] Using git 2.36.1 from git
+[2022-06-19T15:45:03.987Z] > git rev-parse --show-toplevel [7ms]
+[2022-06-19T15:45:03.987Z] fatal: not a git repository (or any parent up to mount point /run/media/shatterstone)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+[2022-06-19T15:45:08.661Z] > git rev-parse --show-toplevel [4ms]
+[2022-06-19T15:45:08.661Z] fatal: not a git repository (or any of the parent directories): .git

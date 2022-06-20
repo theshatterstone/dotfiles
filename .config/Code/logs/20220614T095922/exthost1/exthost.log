@@ -1,0 +1,18 @@
+[2022-06-14 09:59:24.584] [exthost] [info] Extension host with pid 101049 started
+[2022-06-14 09:59:24.584] [exthost] [info] Skipping acquiring lock for /home/shatterstone/.config/Code/User/workspaceStorage/23caaaaf290e4a988007b398dd6a206d.
+[2022-06-14 09:59:24.715] [exthost] [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python'
+[2022-06-14 09:59:24.771] [exthost] [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter, startup: false, activationEvent: 'onLanguage:python'
+[2022-06-14 09:59:24.857] [exthost] [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+[2022-06-14 09:59:24.884] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-06-14 09:59:24.895] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+[2022-06-14 09:59:24.896] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2022-06-14 09:59:25.015] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2022-06-14 09:59:25.030] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-06-14 09:59:25.349] [exthost] [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter-renderers, startup: false, activationEvent: 'api', root cause: ms-toolsai.jupyter
+[2022-06-14 09:59:25.350] [exthost] [info] ExtensionService#_doActivateExtension ms-python.vscode-pylance, startup: false, activationEvent: 'onLanguage:python'
+[2022-06-14 09:59:25.481] [exthost] [info] Eager extensions activated
+[2022-06-14 09:59:25.487] [exthost] [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+[2022-06-14 09:59:25.513] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-06-14 09:59:25.519] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-06-14 09:59:40.537] [exthost] [info] Extension host terminating: received terminate message from renderer
+[2022-06-14 09:59:40.549] [exthost] [info] Extension host with pid 101049 exiting with code 0

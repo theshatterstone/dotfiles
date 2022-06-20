@@ -1,0 +1,18 @@
+Visual Studio Code (1.68.1, undefined, desktop)
+Jupyter Extension Version: 2022.5.1001601848.
+Python Extension Version: 2022.8.0.
+Workspace folder /home/shatterstone/Documents/qtile
+info 11:40:47.865: ZMQ install verified.
+User belongs to experiment group 'jupyterTest'
+User belongs to experiment group 'jupyterEnhancedDataViewer'
+info 11:40:48.204: LSP Notebooks experiment is disabled -- not in treatment group
+info 11:40:48.255: Experiment status for python is {"enabled":true,"optInto":[],"optOutFrom":[]}
+info 11:40:48.519: Process Execution: > /bin/python -m pip list
+> /bin/python -m pip list
+info 11:41:51.679: Shutting down notebooks for f19b0d07-e2bc-4248-b8a1-ac750e920328
+info 11:41:51.679: Disposing HostJupyterExecution 22390bb7-f912-4ac5-a62d-3da195dd63c4
+info 11:41:51.679: Disposing super HostJupyterExecution 22390bb7-f912-4ac5-a62d-3da195dd63c4
+info 11:41:51.680: Disposing HostJupyterExecution 22390bb7-f912-4ac5-a62d-3da195dd63c4
+info 11:41:51.680: Finished disposing HostJupyterExecution  22390bb7-f912-4ac5-a62d-3da195dd63c4
+info 11:41:51.686: Cleaning up server cache 22390bb7-f912-4ac5-a62d-3da195dd63c4
+info 11:41:51.687: Finished disposing HostJupyterExecution  22390bb7-f912-4ac5-a62d-3da195dd63c4

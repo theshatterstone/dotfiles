@@ -1,0 +1,5 @@
+game:
+  exe: /home/shatterstone/Games/minecraft-bedrock-edition/Minecraft_Bedrock_Launcher-x86_64.0.0.540.AppImage
+linux: {}
+system:
+  disable_runtime: true

@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Version=1.0
+Type=Application
+Name=Nitrogen
+Comment=
+Exec=nitrogen --restore
+TryExec=nitrogen --restore
+StartupNotify=false
+X-GNOME-Autostart-enabled=true
+Terminal=false
+Hidden=false

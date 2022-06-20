@@ -1151,4 +1151,4 @@ beautiful.useless_gap = 3
 -- Autostart applications
 awful.spawn.with_shell("~/.config/awesome/autostart.sh")
 --gears.wallpaper.maximized("/home/shatterstone/Documents/wallpapers/0174.png", s)  
-awful.spawn.with_shell("picom -b --config  $HOME/.config/awesome/picom.conf")
+--awful.spawn.with_shell("picom -b --config  $HOME/.config/picom.conf")

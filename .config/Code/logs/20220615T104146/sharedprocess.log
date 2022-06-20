@@ -1,0 +1,40 @@
+[2022-06-15 10:41:49.767] [sharedprocess] [info] Starting worker process with pid 88167 (type: fileWatcher, window: 1).
+[2022-06-15 11:19:37.216] [sharedprocess] [error] SharedProcess (worker, fileWatcher): Worker process with pid 88167 terminated by itself with code null, signal: SIGTRAP (type: fileWatcher, window: 1)
+[2022-06-15 11:19:37.258] [sharedprocess] [info] Starting worker process with pid 112844 (type: fileWatcher, window: 1).
+[2022-06-15 11:19:37.468] [sharedprocess] [warning] SharedProcess: createWorker found an existing worker that will be terminated (window: 1, moduleId: vs/platform/files/node/watcher/watcherMain)
+[2022-06-15 11:19:37.469] [sharedprocess] [info] Worker process with pid 112844 terminated normally (type: fileWatcher, window: 1).
+[2022-06-15 11:19:37.479] [sharedprocess] [info] Starting worker process with pid 112869 (type: fileWatcher, window: 1).
+[2022-06-15 11:19:37.699] [sharedprocess] [warning] SharedProcess: createWorker found an existing worker that will be terminated (window: 1, moduleId: vs/platform/files/node/watcher/watcherMain)
+[2022-06-15 11:19:37.700] [sharedprocess] [info] Worker process with pid 112869 terminated normally (type: fileWatcher, window: 1).
+[2022-06-15 11:19:37.710] [sharedprocess] [info] Starting worker process with pid 112887 (type: fileWatcher, window: 1).
+[2022-06-15 11:19:37.924] [sharedprocess] [warning] SharedProcess: createWorker found an existing worker that will be terminated (window: 1, moduleId: vs/platform/files/node/watcher/watcherMain)
+[2022-06-15 11:19:37.924] [sharedprocess] [info] Worker process with pid 112887 terminated normally (type: fileWatcher, window: 1).
+[2022-06-15 11:19:37.934] [sharedprocess] [info] Starting worker process with pid 112903 (type: fileWatcher, window: 1).
+[2022-06-15 11:19:38.140] [sharedprocess] [warning] SharedProcess: createWorker found an existing worker that will be terminated (window: 1, moduleId: vs/platform/files/node/watcher/watcherMain)
+[2022-06-15 11:19:38.141] [sharedprocess] [info] Worker process with pid 112903 terminated normally (type: fileWatcher, window: 1).
+[2022-06-15 11:19:38.148] [sharedprocess] [info] Starting worker process with pid 112919 (type: fileWatcher, window: 1).
+[2022-06-15 11:19:57.032] [sharedprocess] [info] Worker process with pid 112919 terminated normally (type: fileWatcher, window: 1).
+[2022-06-15 11:19:58.605] [sharedprocess] [info] Starting worker process with pid 113194 (type: fileWatcher, window: 1).
+[2022-06-15 11:23:09.399] [sharedprocess] [info] Getting Manifest... github.vscode-pull-request-github
+[2022-06-15 11:23:09.423] [sharedprocess] [info] Installing extension: github.vscode-pull-request-github
+[2022-06-15 11:23:11.366] [sharedprocess] [info] Downloaded extension: github.vscode-pull-request-github /home/shatterstone/.config/Code/CachedExtensionVSIXs/github.vscode-pull-request-github-0.44.0
+[2022-06-15 11:23:11.477] [sharedprocess] [info] Extracted extension to /home/shatterstone/.vscode/extensions/.956e8915-61b7-42b8-95d4-10b5cea25519: github.vscode-pull-request-github
+[2022-06-15 11:23:11.486] [sharedprocess] [info] Renamed to /home/shatterstone/.vscode/extensions/github.vscode-pull-request-github-0.44.0
+[2022-06-15 11:23:11.492] [sharedprocess] [info] Extracting completed. github.vscode-pull-request-github
+[2022-06-15 11:23:11.493] [sharedprocess] [info] Extension installed successfully: github.vscode-pull-request-github
+[2022-06-15 11:29:10.058] [sharedprocess] [info] Getting Manifest... github.remotehub
+[2022-06-15 11:29:10.071] [sharedprocess] [info] Installing extension: github.remotehub
+[2022-06-15 11:29:10.669] [sharedprocess] [info] Getting Manifest... ms-vscode.remote-repositories
+[2022-06-15 11:29:11.383] [sharedprocess] [info] Installing extension: ms-vscode.remote-repositories
+[2022-06-15 11:29:12.577] [sharedprocess] [info] Downloaded extension: ms-vscode.remote-repositories /home/shatterstone/.config/Code/CachedExtensionVSIXs/ms-vscode.remote-repositories-0.12.0
+[2022-06-15 11:29:12.682] [sharedprocess] [info] Extracted extension to /home/shatterstone/.vscode/extensions/.8fa73656-be35-49a8-9c4d-41ae49b22156: ms-vscode.remote-repositories
+[2022-06-15 11:29:12.692] [sharedprocess] [info] Renamed to /home/shatterstone/.vscode/extensions/ms-vscode.remote-repositories-0.12.0
+[2022-06-15 11:29:12.697] [sharedprocess] [info] Extracting completed. ms-vscode.remote-repositories
+[2022-06-15 11:29:13.937] [sharedprocess] [info] Downloaded extension: github.remotehub /home/shatterstone/.config/Code/CachedExtensionVSIXs/github.remotehub-0.34.0
+[2022-06-15 11:29:14.172] [sharedprocess] [info] Extracted extension to /home/shatterstone/.vscode/extensions/.ea44fce2-a1ea-45e5-b950-05d9b376cb5d: github.remotehub
+[2022-06-15 11:29:14.184] [sharedprocess] [info] Renamed to /home/shatterstone/.vscode/extensions/github.remotehub-0.34.0
+[2022-06-15 11:29:14.186] [sharedprocess] [info] Extracting completed. github.remotehub
+[2022-06-15 11:29:14.188] [sharedprocess] [info] Extension installed successfully: ms-vscode.remote-repositories
+[2022-06-15 11:29:14.189] [sharedprocess] [info] Extension installed successfully: github.remotehub
+[2022-06-15 11:29:58.199] [sharedprocess] [info] Worker process with pid 113194 terminated normally (type: fileWatcher, window: 1).
+[2022-06-15 11:29:59.423] [sharedprocess] [info] Starting worker process with pid 121221 (type: fileWatcher, window: 1).

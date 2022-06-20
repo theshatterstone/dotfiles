@@ -1,0 +1,16 @@
+[Info  - 11:39:13] (903877) Pylance language server 2022.6.10 (pyright bbc42826) starting
+[Info  - 11:39:13] (903877) Server root directory: /home/shatterstone/.vscode/extensions/ms-python.vscode-pylance-2022.6.10/dist
+Notebook support: Legacy
+[Info  - 11:39:13] (903877) No configuration file found.
+[Info  - 11:39:13] (903877) No pyproject.toml file found.
+[Info  - 11:39:13] (903877) Setting pythonPath for service "qtile": "/bin/python"
+[Warn  - 11:39:13] (903877) stubPath /home/shatterstone/Documents/qtile/typings is not a valid directory.
+[Info  - 11:39:13] (903877) Assuming Python version 3.10
+[Info  - 11:39:13] (903877) Assuming Python platform Linux
+[Info  - 11:39:13] (903877) Searching for source files
+[Info  - 11:39:13] (903877) Found 4 source files
+[Info  - 11:39:13] (903877) Background analysis(1) root directory: /home/shatterstone/.vscode/extensions/ms-python.vscode-pylance-2022.6.10/dist
+[Info  - 11:39:13] (903877) Background analysis(1) started
+[Info  - 11:39:13] (903877) Indexer background runner(2) root directory: /home/shatterstone/.vscode/extensions/ms-python.vscode-pylance-2022.6.10/dist (index)
+[Info  - 11:39:13] (903877) Indexing(2) started
+[Info  - 11:39:15] (903877) Indexer done(2). indexed 475 files

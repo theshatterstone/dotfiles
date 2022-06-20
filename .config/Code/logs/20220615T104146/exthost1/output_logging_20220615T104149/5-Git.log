@@ -1,0 +1,34 @@
+[2022-06-15T09:41:50.084Z] Log level: Info
+[2022-06-15T09:41:50.085Z] [info] Validating found git in: git
+[2022-06-15T09:41:50.225Z] [info] Using git 2.36.1 from git
+[2022-06-15T09:41:50.252Z] > git rev-parse --show-toplevel [11ms]
+[2022-06-15T09:41:50.252Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-06-15T09:41:50.267Z] > git rev-parse --show-toplevel [3ms]
+[2022-06-15T09:41:50.267Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-06-15T09:41:50.277Z] > git rev-parse --show-toplevel [2ms]
+[2022-06-15T09:41:50.277Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-06-15T09:41:50.560Z] > git rev-parse --show-toplevel [24ms]
+[2022-06-15T09:41:50.560Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-06-15T09:42:30.690Z] > git rev-parse --show-toplevel [3ms]
+[2022-06-15T09:42:30.705Z] > git rev-parse --git-dir --git-common-dir [5ms]
+[2022-06-15T09:42:30.714Z] [info] Open repository: /home/shatterstone/Documents/TheCaveman
+[2022-06-15T09:42:30.730Z] > git status -z -uall [4ms]
+[2022-06-15T09:42:30.751Z] > git symbolic-ref --short HEAD [12ms]
+[2022-06-15T09:42:30.767Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+[2022-06-15T09:42:30.797Z] > git remote --verbose [5ms]
+[2022-06-15T09:42:30.798Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [19ms]
+[2022-06-15T09:42:30.816Z] > git config --get commit.template [2ms]
+[2022-06-15T09:42:31.077Z] > git show --textconv :main.py [13ms]
+[2022-06-15T09:42:31.078Z] > git ls-files --stage -- /home/shatterstone/Documents/TheCaveman/main.py [2ms]
+[2022-06-15T09:42:31.089Z] > git cat-file -s 58f9451e9c3122d7d61070c581590ae7aa8b78c1 [2ms]
+[2022-06-15T09:42:31.279Z] > git check-ignore -v -z --stdin [1ms]
+[2022-06-15T09:42:33.833Z] > git rev-parse --show-toplevel [2ms]
+[2022-06-15T09:42:33.833Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-06-15T10:10:59.440Z] > git show --textconv :main.py [10ms]
+[2022-06-15T10:10:59.441Z] > git ls-files --stage -- /home/shatterstone/Documents/TheCaveman/main.py [2ms]
+[2022-06-15T10:10:59.450Z] > git cat-file -s 58f9451e9c3122d7d61070c581590ae7aa8b78c1 [1ms]
+[2022-06-15T10:11:01.206Z] > git rev-parse --show-toplevel [4ms]
+[2022-06-15T10:11:01.206Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-06-15T10:11:02.781Z] > git show --textconv :main.py [11ms]
+[2022-06-15T10:11:02.782Z] > git ls-files --stage -- /home/shatterstone/Documents/TheCaveman/main.py [3ms]
+[2022-06-15T10:11:02.793Z] > git cat-file -s 58f9451e9c3122d7d61070c581590ae7aa8b78c1 [2ms]

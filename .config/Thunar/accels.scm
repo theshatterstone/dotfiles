@@ -1,4 +1,4 @@
-; thunar GtkAccelMap rc-file         -*- scheme -*-
+; Thunar GtkAccelMap rc-file         -*- scheme -*-
 ; this file is an automated accelerator map dump
 ;
 ; (gtk_accel_path "<Actions>/ThunarLauncher/delete-3" "<Shift>KP_Delete")
@@ -65,6 +65,7 @@
 ; (gtk_accel_path "<Actions>/ThunarWindow/zoom-in-alt1" "<Primary>plus")
 ; (gtk_accel_path "<Actions>/ThunarWindow/switch-previous-tab" "<Primary>Page_Up")
 ; (gtk_accel_path "<Actions>/ThunarStandardView/sort-by-type" "")
+; (gtk_accel_path "<Actions>/ThunarBookmarks/608d85948942d75fcd11609a2fc0752f" "")
 ; (gtk_accel_path "<Actions>/ThunarWindow/view-location-selector-menu" "")
 ; (gtk_accel_path "<Actions>/ThunarWindow/view-statusbar" "")
 ; (gtk_accel_path "<Actions>/ThunarWindow/close-all-windows" "<Primary><Shift>w")

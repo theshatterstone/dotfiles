@@ -1,0 +1,16 @@
+[2022-06-15T09:27:36.441Z] Log level: Info
+[2022-06-15T09:27:36.441Z] [info] Validating found git in: git
+[2022-06-15T09:27:36.600Z] [info] Using git  from git
+[2022-06-15T09:27:36.628Z] > git rev-parse --show-toplevel [13ms]
+[2022-06-15T09:27:36.640Z] > git rev-parse --git-dir --git-common-dir [1ms]
+[2022-06-15T09:27:36.647Z] [info] Open repository: /home/shatterstone/Documents/TheCaveman
+[2022-06-15T09:27:36.684Z] > git status -z -uall [26ms]
+[2022-06-15T09:27:36.736Z] > git symbolic-ref --short HEAD [42ms]
+[2022-06-15T09:27:36.780Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [35ms]
+[2022-06-15T09:27:36.813Z] > git remote --verbose [17ms]
+[2022-06-15T09:27:36.814Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [25ms]
+[2022-06-15T09:27:36.839Z] > git config --get commit.template [7ms]
+[2022-06-15T09:27:37.068Z] > git show --textconv :main.py [9ms]
+[2022-06-15T09:27:37.069Z] > git ls-files --stage -- /home/shatterstone/Documents/TheCaveman/main.py [2ms]
+[2022-06-15T09:27:37.083Z] > git cat-file -s 58f9451e9c3122d7d61070c581590ae7aa8b78c1 [3ms]
+[2022-06-15T09:27:37.197Z] > git check-ignore -v -z --stdin [1ms]

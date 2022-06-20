@@ -1,0 +1,16 @@
+[2022-06-15 11:19:30.528] [renderer1] [warning] [File Watcher (parcel)] Watcher shutdown because watched path got deleted (path: /home/shatterstone/Documents/Dice Game Remastered)
+[2022-06-15 11:19:30.528] [renderer1] [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+[2022-06-15 11:19:37.247] [renderer1] [error] [File Watcher (universal)] restarting watcher after error: terminated by itself with code undefined, signal: SIGTRAP
+[2022-06-15 11:19:37.458] [renderer1] [error] [File Watcher (parcel)] Unexpected error: Bad file descriptor (EUNKNOWN) (path: /home/shatterstone/Documents/Dice Game Remastered)
+[2022-06-15 11:19:37.464] [renderer1] [error] [File Watcher (universal)] restarting watcher after error: Bad file descriptor
+[2022-06-15 11:19:37.690] [renderer1] [error] [File Watcher (parcel)] Unexpected error: Bad file descriptor (EUNKNOWN) (path: /home/shatterstone/Documents/Dice Game Remastered)
+[2022-06-15 11:19:37.695] [renderer1] [error] [File Watcher (universal)] restarting watcher after error: Bad file descriptor
+[2022-06-15 11:19:37.919] [renderer1] [error] [File Watcher (parcel)] Unexpected error: Bad file descriptor (EUNKNOWN) (path: /home/shatterstone/Documents/Dice Game Remastered)
+[2022-06-15 11:19:37.922] [renderer1] [error] [File Watcher (universal)] restarting watcher after error: Bad file descriptor
+[2022-06-15 11:19:38.135] [renderer1] [error] [File Watcher (parcel)] Unexpected error: Bad file descriptor (EUNKNOWN) (path: /home/shatterstone/Documents/Dice Game Remastered)
+[2022-06-15 11:19:38.138] [renderer1] [error] [File Watcher (universal)] restarting watcher after error: Bad file descriptor
+[2022-06-15 11:19:38.342] [renderer1] [error] [File Watcher (parcel)] Unexpected error: Bad file descriptor (EUNKNOWN) (path: /home/shatterstone/Documents/Dice Game Remastered)
+[2022-06-15 11:19:38.346] [renderer1] [error] [File Watcher (universal)] gave up attempting to restart watcher after error: Bad file descriptor
+[2022-06-15 11:23:11.644] [renderer1] [info] [GitHub.vscode-pull-request-github]: `remoteHub/pullRequest` is not a valid menu identifier
+[2022-06-15 11:29:55.643] [renderer1] [error] [Extension Host] (node:113195) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+(Use `code --trace-deprecation ...` to show where the warning was created)

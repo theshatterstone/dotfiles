@@ -1,0 +1,14 @@
+{
+	"https://destinationlinux.org/feed/mp3/": {
+		"rss": "https://destinationlinux.org/feed/mp3/",
+		"title": "Destination Linux",
+		"img": "https://destinationlinux.org/wp-content/uploads/2021/06/dln-podcast-art-destination-linux-scaled.jpg",
+		"dateAdded": 1655289777472
+	},
+	"https://tuxdigital.com/feed/thisweekinlinux-mp3": {
+		"rss": "https://tuxdigital.com/feed/thisweekinlinux-mp3",
+		"title": "This Week in Linux",
+		"img": "https://tuxdigital.com/wp-content/uploads/2021/06/dln-podcast-art-thisweekinlinux.jpg",
+		"dateAdded": 1655289785774
+	}
+}
