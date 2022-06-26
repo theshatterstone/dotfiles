@@ -25,6 +25,8 @@ cd dotfiles/
 
 cp -r * ~/
 
+Additional apps/packages: picom telegram lxappearance xfce4-screenshooter blueberry code virt-manager archlinux-logout archlinux-tweak-tool discord firefox vlc deadbeef etcher gparted geany kdenlive meld notepadqq obs onlyoffice qbittorrent redshift ristretto stacer steam thunderbird tor ventoy lutris variety
+
 NOTE:Qtile requires Ubuntu fonts installed. 
 Qtile brightness and volume controls only work with the brightnessctl package installed and with the .local/ files from 
 https://github.com/justinesmithies/qtile-x-dotfiles/ 
