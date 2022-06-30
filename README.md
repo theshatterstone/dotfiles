@@ -11,13 +11,7 @@ Applications required:
 
 Arch:
 
-sudo pacman -S alacritty awesome conky htop nano neofetch nitrogen rofi dmenu thunar qtile brightnessctl
-
-
-Deb:
-
-sudo apt install alacritty awesome conky htop nano neofetch nitrogen rofi dmenu thunar qtile brightnessctl
-
+sudo pacman -S alacritty awesome conky htop nano neofetch nitrogen rofi dmenu thunar qtile brightnessctl amixer
 
 Post-install:
 
@@ -28,8 +22,7 @@ cp -r * ~/
 Additional apps/packages: picom telegram lxappearance xfce4-screenshooter blueberry code virt-manager archlinux-logout archlinux-tweak-tool discord firefox vlc deadbeef etcher gparted geany kdenlive meld notepadqq obs onlyoffice qbittorrent redshift ristretto stacer steam thunderbird tor ventoy lutris variety
 
 NOTE:Qtile requires Ubuntu fonts installed. 
-Qtile brightness and volume controls only work with the brightnessctl package installed and with the .local/ files from 
-https://github.com/justinesmithies/qtile-x-dotfiles/ 
+Qtile brightness and volume controls only work with the brightnessctl and amixer packages installed
 
 
 rc.lua should work now that I've finally gotten around to fixing these dotfiles. 
