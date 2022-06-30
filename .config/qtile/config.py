@@ -34,6 +34,10 @@ keys = [
              lazy.spawn(myBrowser),
              desc='Firefox'
              ),
+        Key([mod], "v",
+             lazy.spawn("feh --bg-fill --randomize /home/shatterstone/wallpapers"),
+             desc='Firefox'
+             ),
          Key([mod], "Tab",
              lazy.next_layout(),
              desc='Toggle through layouts'
@@ -53,39 +57,39 @@ keys = [
                  # ------------ Hardware Configs ------------
 		# Volume
 		Key([], "XF86AudioMute",
-			lazy.spawn(home + "/.local/bin/statusbar/volumecontrol mute"),
+			lazy.spawn("amixer set Master toggle"),
 			desc='Mute audio'
 			),
 		Key([], "XF86AudioLowerVolume",
-			lazy.spawn(home + "/.local/bin/statusbar/volumecontrol down"),
+			lazy.spawn("amixer set Master 1%-"),
 			desc='Volume down'
 			),
 		Key([], "XF86AudioRaiseVolume",
-			lazy.spawn(home + "/.local/bin/statusbar/volumecontrol up"),
+			lazy.spawn("amixer set Master 1%+"),
 			desc='Volume up'
 			),
 
-		# Media keys
-		Key([], "XF86AudioPlay",
-			lazy.spawn("dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify " "/org/mpris/MediaPlayer2 " "org.mpris.MediaPlayer2.Player.PlayPause"),
-			desc='Audio play'
-			),
-		Key([], "XF86AudioNext",
-			lazy.spawn("dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify " "/org/mpris/MediaPlayer2 " "org.mpris.MediaPlayer2.Player.Next"),
-			desc='Audio next'
-			),
-		Key([], "XF86AudioPrev",
-			lazy.spawn("dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify " "/org/mpris/MediaPlayer2 " "org.mpris.MediaPlayer2.Player.Previous"),
-			desc='Audio previous'
-			),
+		# # Media keys
+		# Key([], "XF86AudioPlay",
+		# 	lazy.spawn("dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify " "/org/mpris/MediaPlayer2 " "org.mpris.MediaPlayer2.Player.PlayPause"),
+		# 	desc='Audio play'
+		# 	),
+		# Key([], "XF86AudioNext",
+		# 	lazy.spawn("dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify " "/org/mpris/MediaPlayer2 " "org.mpris.MediaPlayer2.Player.Next"),
+		# 	desc='Audio next'
+		# 	),
+		# Key([], "XF86AudioPrev",
+		# 	lazy.spawn("dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify " "/org/mpris/MediaPlayer2 " "org.mpris.MediaPlayer2.Player.Previous"),
+		# 	desc='Audio previous'
+		# 	),
 
 		# Brightness
 		Key([], "XF86MonBrightnessDown",
-			lazy.spawn(home + "/.local/bin/statusbar/brightnesscontrol down"),
+			lazy.spawn("brightnessctl set 1%-"),
 			desc='Brightness down'
 			),
 		Key([], "XF86MonBrightnessUp",
-			lazy.spawn(home + "/.local/bin/statusbar/brightnesscontrol up"),
+			lazy.spawn("brightnessctl set +1%"),
 			desc='Brightness up'
 			),
          ### Switch focus to specific monitor (out of three)
