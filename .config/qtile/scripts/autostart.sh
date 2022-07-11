@@ -49,14 +49,15 @@ run pamac-tray &
 run xfce4-power-manager &
 numlockx on &
 blueberry-tray &
-picom --config $HOME/.config/picom.conf &
+run picom -b --config ~/.config/picom.conf &
 /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
 /usr/lib/xfce4/notifyd/xfce4-notifyd &
 
 #starting user applications at boot time
 run volumeicon &
 #run discord &
-nitrogen --restore &
+feh --bg-fill --randomize /home/shatterstone/wallpapers &
+#nitrogen --restore &
 #run caffeine -a &
 #run vivaldi-stable &
 #run firefox &
@@ -66,3 +67,4 @@ nitrogen --restore &
 #run spotify &
 #run atom &
 #run telegram-desktop &
+

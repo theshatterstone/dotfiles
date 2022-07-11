@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Version=1.0
+Type=Application
+Name=Emacs Server (Daemon)
+Comment=
+Exec=/usr/bin/emacs --daemon
+TryExec=/usr/bin/emacs --daemon
+StartupNotify=false
+X-GNOME-Autostart-enabled=true
+Terminal=false
+Hidden=false

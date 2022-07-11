@@ -1,0 +1,10 @@
+[2022-07-11 12:04:51.565] [sharedprocess] [info] Starting worker process with pid 52844 (type: fileWatcher, window: 1).
+[2022-07-11 12:04:53.408] [sharedprocess] [info] Getting Manifest... github.vscode-pull-request-github
+[2022-07-11 12:04:53.852] [sharedprocess] [info] Installing extension: github.vscode-pull-request-github
+[2022-07-11 12:04:54.788] [sharedprocess] [info] Downloaded extension: github.vscode-pull-request-github /home/shatterstone/.config/Code - OSS/CachedExtensionVSIXs/github.vscode-pull-request-github-0.46.0
+[2022-07-11 12:04:54.866] [sharedprocess] [info] Extracted extension to /home/shatterstone/.vscode-oss/extensions/.e2b77e6a-c55c-4a23-819c-7c99282c30ee: github.vscode-pull-request-github
+[2022-07-11 12:04:54.870] [sharedprocess] [info] Renamed to /home/shatterstone/.vscode-oss/extensions/github.vscode-pull-request-github-0.46.0
+[2022-07-11 12:04:54.873] [sharedprocess] [info] Extracting completed. github.vscode-pull-request-github
+[2022-07-11 12:04:54.877] [sharedprocess] [info] Extension installed successfully: github.vscode-pull-request-github
+[2022-07-11 12:05:12.664] [sharedprocess] [info] Worker process with pid 52844 terminated normally (type: fileWatcher, window: 1).
+[2022-07-11 12:05:13.441] [sharedprocess] [info] Starting worker process with pid 53117 (type: fileWatcher, window: 1).

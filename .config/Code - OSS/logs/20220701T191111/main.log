@@ -1,0 +1,4 @@
+[2022-07-01 19:11:11.993] [main] [info] update#ctor - updates are disabled as there is no update URL
+[2022-07-01 19:11:13.644] [main] [info] Starting extension host with pid 297336 (fork() took 36 ms).
+[2022-07-01 19:12:04.397] [main] [info] Waiting for extension host with pid 297336 to exit.
+[2022-07-01 19:12:04.410] [main] [info] Extension host with pid 297336 exited with code: 0, signal: null.

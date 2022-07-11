@@ -1,3 +1,8 @@
-2022/06/14-11:09:16.474 261fb Reusing MANIFEST /home/shatterstone/.config/discord/Local Storage/leveldb/MANIFEST-000001
-2022/06/14-11:09:16.474 261fb Recovering log #4
-2022/06/14-11:09:16.474 261fb Reusing old log /home/shatterstone/.config/discord/Local Storage/leveldb/000004.log 
+2022/07/08-10:29:13.091 9c596 Reusing MANIFEST /home/shatterstone/.config/discord/Local Storage/leveldb/MANIFEST-000001
+2022/07/08-10:29:13.092 9c596 Recovering log #4
+2022/07/08-10:29:13.093 9c596 Level-0 table #7: started
+2022/07/08-10:29:13.099 9c596 Level-0 table #7: 487764 bytes OK
+2022/07/08-10:29:13.100 9c596 Delete type=0 #4
+2022/07/08-10:48:43.929 9c596 Level-0 table #10: started
+2022/07/08-10:48:43.946 9c596 Level-0 table #10: 484831 bytes OK
+2022/07/08-10:48:43.948 9c596 Delete type=0 #8

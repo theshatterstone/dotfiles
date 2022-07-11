@@ -1,0 +1,6 @@
+[2022-07-11 12:04:49.012] [main] [info] update#ctor - updates are disabled as there is no update URL
+[2022-07-11 12:04:50.645] [main] [info] Starting extension host with pid 52786 (fork() took 41 ms).
+[2022-07-11 12:05:12.662] [main] [info] Extension host with pid 52786 exited with code: 0, signal: null.
+[2022-07-11 12:05:13.428] [main] [info] Starting extension host with pid 53116 (fork() took 9 ms).
+[2022-07-11 12:06:07.006] [main] [info] Extension host with pid 53116 exited with code: 0, signal: null.
+[2022-07-11 12:06:07.011] [main] [info] Waiting for extension host with pid 53116 to exit.

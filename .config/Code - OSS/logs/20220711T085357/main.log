@@ -1,0 +1,4 @@
+[2022-07-11 08:53:57.720] [main] [info] update#ctor - updates are disabled as there is no update URL
+[2022-07-11 08:53:59.621] [main] [info] Starting extension host with pid 5201 (fork() took 8 ms).
+[2022-07-11 08:54:01.362] [main] [info] Waiting for extension host with pid 5201 to exit.
+[2022-07-11 08:54:01.561] [main] [info] Extension host with pid 5201 exited with code: 0, signal: null.

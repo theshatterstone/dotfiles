@@ -1,0 +1,42 @@
+[2022-07-01 19:07:39.742] [exthost] [info] Extension host with pid 294877 started
+[2022-07-01 19:07:39.809] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-07-01 19:07:39.813] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*'
+[2022-07-01 19:07:39.818] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2022-07-01 19:07:39.825] [exthost] [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: true, activationEvent: '*', root cause: GitHub.vscode-pull-request-github
+[2022-07-01 19:07:39.872] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-07-01 19:07:39.878] [exthost] [info] ExtensionService#_doActivateExtension GitHub.vscode-pull-request-github, startup: true, activationEvent: '*'
+[2022-07-01 19:07:40.581] [exthost] [info] Eager extensions activated
+[2022-07-01 19:07:40.583] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-07-01 19:07:40.588] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-07-01 19:08:19.836] [exthost] [info] Extension host terminating: received terminate message from renderer
+[2022-07-01 19:08:19.841] [exthost] [info] Extension host with pid 294877 exiting with code 0
+[2022-07-01 19:08:21.581] [exthost] [info] Extension host with pid 295385 started
+[2022-07-01 19:08:21.581] [exthost] [info] Skipping acquiring lock for /home/shatterstone/.config/Code - OSS/User/workspaceStorage/b3f0e75b9bd57d7829803c133ad677d8.
+[2022-07-01 19:08:21.669] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-07-01 19:08:21.673] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+[2022-07-01 19:08:21.675] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2022-07-01 19:08:21.678] [exthost] [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: true, activationEvent: '*', root cause: GitHub.vscode-pull-request-github
+[2022-07-01 19:08:21.689] [exthost] [info] ExtensionService#_doActivateExtension KnisterPeter.vscode-github, startup: true, activationEvent: '*'
+[2022-07-01 19:08:21.798] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2022-07-01 19:08:21.815] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-07-01 19:08:21.817] [exthost] [info] ExtensionService#_doActivateExtension GitHub.vscode-pull-request-github, startup: true, activationEvent: '*'
+[2022-07-01 19:08:22.456] [exthost] [info] Eager extensions activated
+[2022-07-01 19:08:22.458] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-07-01 19:08:22.462] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-07-01 19:08:28.822] [exthost] [info] Extension host terminating: received terminate message from renderer
+[2022-07-01 19:08:28.832] [exthost] [info] Extension host with pid 295385 exiting with code 0
+[2022-07-01 19:08:30.008] [exthost] [info] Extension host with pid 295502 started
+[2022-07-01 19:08:30.008] [exthost] [info] Skipping acquiring lock for /home/shatterstone/.config/Code - OSS/User/workspaceStorage/300c1e02338027acd310e030a52e43bc.
+[2022-07-01 19:08:30.132] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-07-01 19:08:30.135] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+[2022-07-01 19:08:30.137] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2022-07-01 19:08:30.141] [exthost] [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: true, activationEvent: '*', root cause: GitHub.vscode-pull-request-github
+[2022-07-01 19:08:30.155] [exthost] [info] ExtensionService#_doActivateExtension KnisterPeter.vscode-github, startup: true, activationEvent: '*'
+[2022-07-01 19:08:30.244] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2022-07-01 19:08:30.258] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-07-01 19:08:30.261] [exthost] [info] ExtensionService#_doActivateExtension GitHub.vscode-pull-request-github, startup: true, activationEvent: '*'
+[2022-07-01 19:08:30.936] [exthost] [info] Eager extensions activated
+[2022-07-01 19:08:30.938] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-07-01 19:08:30.944] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-07-01 19:10:57.266] [exthost] [info] Extension host terminating: received terminate message from renderer
+[2022-07-01 19:10:57.275] [exthost] [info] Extension host with pid 295502 exiting with code 0

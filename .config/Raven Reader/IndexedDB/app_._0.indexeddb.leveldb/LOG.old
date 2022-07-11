@@ -1,0 +1,52 @@
+2022/07/03-19:29:11.627 2211a Reusing MANIFEST /home/shatterstone/.config/Raven Reader/IndexedDB/app_._0.indexeddb.leveldb/MANIFEST-000001
+2022/07/03-19:29:11.627 2211a Recovering log #26
+2022/07/03-19:29:11.637 2211a Reusing old log /home/shatterstone/.config/Raven Reader/IndexedDB/app_._0.indexeddb.leveldb/000026.log 
+2022/07/03-19:29:14.811 2211a Level-0 table #32: started
+2022/07/03-19:29:14.841 2211a Level-0 table #32: 1749803 bytes OK
+2022/07/03-19:29:14.842 2211a Delete type=0 #26
+2022/07/03-19:39:03.838 23a58 Compacting 1@1 + 1@2 files
+2022/07/03-19:39:03.843 23a58 Level-0 table #35: started
+2022/07/03-19:39:03.869 23a58 Level-0 table #35: 1758149 bytes OK
+2022/07/03-19:39:03.871 23a58 Delete type=0 #31
+2022/07/03-19:39:03.891 23a58 Generated table #33@1: 2774 keys, 1089875 bytes
+2022/07/03-19:39:03.891 23a58 Compacted 1@1 + 1@2 files => 1089875 bytes
+2022/07/03-19:39:03.893 23a58 compacted to: files[ 1 0 1 0 0 0 0 ]
+2022/07/03-19:39:03.893 23a58 Delete type=2 #29
+2022/07/03-19:39:03.893 23a58 Delete type=2 #32
+2022/07/03-19:39:03.894 23a58 Moved #35 to level-1 1758149 bytes OK: files[ 0 1 1 0 0 0 0 ]
+2022/07/03-19:39:03.896 23a58 Compacting 1@1 + 1@2 files
+2022/07/03-19:39:03.918 23a58 Generated table #36@1: 3192 keys, 1495354 bytes
+2022/07/03-19:39:03.918 23a58 Compacted 1@1 + 1@2 files => 1495354 bytes
+2022/07/03-19:39:03.919 23a58 compacted to: files[ 0 0 1 0 0 0 0 ]
+2022/07/03-19:39:03.920 23a58 Delete type=2 #35
+2022/07/03-19:39:03.920 23a58 Delete type=2 #33
+2022/07/03-19:39:03.926 23a58 Level-0 table #38: started
+2022/07/03-19:39:03.948 23a58 Level-0 table #38: 1807947 bytes OK
+2022/07/03-19:39:03.951 23a58 Delete type=0 #34
+2022/07/03-20:05:57.203 27219 Compacting 1@1 + 1@2 files
+2022/07/03-20:05:57.242 27219 Generated table #39@1: 4740 keys, 2126995 bytes
+2022/07/03-20:05:57.246 27219 Generated table #40@1: 1530 keys, 290693 bytes
+2022/07/03-20:05:57.246 27219 Compacted 1@1 + 1@2 files => 2417688 bytes
+2022/07/03-20:05:57.247 27219 compacted to: files[ 0 0 2 0 0 0 0 ]
+2022/07/03-20:05:57.247 27219 Delete type=2 #38
+2022/07/03-20:05:57.247 27219 Delete type=2 #36
+2022/07/03-20:06:07.488 279f7 Level-0 table #42: started
+2022/07/03-20:06:07.512 279f7 Level-0 table #42: 1789860 bytes OK
+2022/07/03-20:06:07.514 279f7 Delete type=0 #37
+2022/07/03-20:06:07.516 279f7 Compacting 1@1 + 2@2 files
+2022/07/03-20:06:07.550 279f7 Generated table #43@1: 3652 keys, 1831992 bytes
+2022/07/03-20:06:07.550 279f7 Compacted 1@1 + 2@2 files => 1831992 bytes
+2022/07/03-20:06:07.551 279f7 compacted to: files[ 0 0 1 0 0 0 0 ]
+2022/07/03-20:06:07.551 279f7 Delete type=2 #40
+2022/07/03-20:06:07.551 279f7 Delete type=2 #42
+2022/07/03-20:06:07.551 279f7 Delete type=2 #39
+2022/07/03-20:06:07.576 279f7 Level-0 table #45: started
+2022/07/03-20:06:07.596 279f7 Level-0 table #45: 1829248 bytes OK
+2022/07/03-20:06:07.597 279f7 Delete type=0 #41
+2022/07/03-20:06:46.695 27a0b Compacting 1@1 + 1@2 files
+2022/07/03-20:06:46.721 27a0b Generated table #46@1: 4796 keys, 2127042 bytes
+2022/07/03-20:06:46.729 27a0b Generated table #47@1: 1994 keys, 637807 bytes
+2022/07/03-20:06:46.729 27a0b Compacted 1@1 + 1@2 files => 2764849 bytes
+2022/07/03-20:06:46.730 27a0b compacted to: files[ 0 0 2 0 0 0 0 ]
+2022/07/03-20:06:46.730 27a0b Delete type=2 #43
+2022/07/03-20:06:46.730 27a0b Delete type=2 #45

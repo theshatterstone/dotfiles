@@ -1,0 +1,19 @@
+<!--
+WARNING: THIS IS AN AUTO-GENERATED FILE. CHANGES TO IT ARE LIKELY TO BE
+OVERWRITTEN AND LOST. Changes to this xml configuration should be made using:
+  virsh pool-edit default
+or other application using the libvirt API.
+-->
+
+<pool type='dir'>
+  <name>default</name>
+  <uuid>94406d52-5b55-4130-b8f8-98e5d2bdf0fa</uuid>
+  <capacity unit='bytes'>0</capacity>
+  <allocation unit='bytes'>0</allocation>
+  <available unit='bytes'>0</available>
+  <source>
+  </source>
+  <target>
+    <path>/home/shatterstone/.local/share/libvirt/images</path>
+  </target>
+</pool>

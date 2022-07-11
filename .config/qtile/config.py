@@ -30,6 +30,10 @@ keys = [
              lazy.spawn("rofi -combi-modi drun,run -show combi"),
              desc='Rofi'
              ),
+         Key([mod], "e",
+             lazy.spawn("emacsclient -c -a 'emacs'"),
+             desc='Launch Emacs'
+             ),
          Key([mod], "w",
              lazy.spawn(myBrowser),
              desc='Firefox'
@@ -55,19 +59,19 @@ keys = [
              desc='Shutdown Qtile'
              ),
                  # ------------ Hardware Configs ------------
-		# Volume
-		Key([], "XF86AudioMute",
-			lazy.spawn("amixer set Master toggle"),
-			desc='Mute audio'
-			),
-		Key([], "XF86AudioLowerVolume",
-			lazy.spawn("amixer set Master 1%-"),
-			desc='Volume down'
-			),
-		Key([], "XF86AudioRaiseVolume",
-			lazy.spawn("amixer set Master 1%+"),
-			desc='Volume up'
-			),
+        # Volume
+        Key([], "XF86AudioMute",
+            lazy.spawn("amixer set Master toggle"),
+            desc='Mute audio'
+            ),
+        Key([], "XF86AudioLowerVolume",
+            lazy.spawn("amixer set Master 1%-"),
+            desc='Volume down'
+            ),
+        Key([], "XF86AudioRaiseVolume",
+            lazy.spawn("amixer set Master 1%+"),
+            desc='Volume up'
+            ),
 
 		# # Media keys
 		# Key([], "XF86AudioPlay",
@@ -83,18 +87,18 @@ keys = [
 		# 	desc='Audio previous'
 		# 	),
 
-		# Brightness
-		Key([], "XF86MonBrightnessDown",
-			lazy.spawn("brightnessctl set 1%-"),
-			desc='Brightness down'
-			),
-		Key([], "XF86MonBrightnessUp",
-			lazy.spawn("brightnessctl set +1%"),
-			desc='Brightness up'
-			),
+        # Brightness
+        Key([], "XF86MonBrightnessDown",
+            lazy.spawn("brightnessctl set 1%-"),
+            desc='Brightness down'
+            ),
+        Key([], "XF86MonBrightnessUp",
+            lazy.spawn("brightnessctl set +1%"),
+            desc='Brightness up'
+            ),
          ### Switch focus to specific monitor (out of three)
 #         Key([mod], "w",
-#            lazy.to_screen(0),
+#           lazy.to_screen(0),
 #           desc='Keyboard focus to monitor 1'
 #             ),
 #         Key([mod], "e",
@@ -183,79 +187,79 @@ keys = [
              desc='Toggle between split and unsplit sides of stack'
              ),
          # Emacs programs launched using the key chord CTRL+e followed by 'key'
-         KeyChord(["control"],"e", [
-             Key([], "e",
-                 lazy.spawn("emacsclient -c -a 'emacs'"),
-                 desc='Launch Emacs'
-                 ),
-             Key([], "b",
-                 lazy.spawn("emacsclient -c -a 'emacs' --eval '(ibuffer)'"),
-                 desc='Launch ibuffer inside Emacs'
-                 ),
-             Key([], "d",
-                 lazy.spawn("emacsclient -c -a 'emacs' --eval '(dired nil)'"),
-                 desc='Launch dired inside Emacs'
-                 ),
-             Key([], "i",
-                 lazy.spawn("emacsclient -c -a 'emacs' --eval '(erc)'"),
-                 desc='Launch erc inside Emacs'
-                 ),
-             Key([], "m",
-                 lazy.spawn("emacsclient -c -a 'emacs' --eval '(mu4e)'"),
-                 desc='Launch mu4e inside Emacs'
-                 ),
-             Key([], "n",
-                 lazy.spawn("emacsclient -c -a 'emacs' --eval '(elfeed)'"),
-                 desc='Launch elfeed inside Emacs'
-                 ),
-             Key([], "s",
-                 lazy.spawn("emacsclient -c -a 'emacs' --eval '(eshell)'"),
-                 desc='Launch the eshell inside Emacs'
-                 ),
-             Key([], "v",
-                 lazy.spawn("emacsclient -c -a 'emacs' --eval '(+vterm/here nil)'"),
-                 desc='Launch vterm inside Emacs'
-                 )
-         ]),
+        #  KeyChord(["control"],"e", [
+        #      Key([], "e",
+        #          lazy.spawn("emacsclient -c -a 'emacs'"),
+        #          desc='Launch Emacs'
+        #          ),
+        #      Key([], "b",
+        #          lazy.spawn("emacsclient -c -a 'emacs' --eval '(ibuffer)'"),
+        #          desc='Launch ibuffer inside Emacs'
+        #          ),
+        #      Key([], "d",
+        #          lazy.spawn("emacsclient -c -a 'emacs' --eval '(dired nil)'"),
+        #          desc='Launch dired inside Emacs'
+        #          ),
+        #      Key([], "i",
+        #          lazy.spawn("emacsclient -c -a 'emacs' --eval '(erc)'"),
+        #          desc='Launch erc inside Emacs'
+        #          ),
+        #      Key([], "m",
+        #          lazy.spawn("emacsclient -c -a 'emacs' --eval '(mu4e)'"),
+        #          desc='Launch mu4e inside Emacs'
+        #          ),
+        #      Key([], "n",
+        #          lazy.spawn("emacsclient -c -a 'emacs' --eval '(elfeed)'"),
+        #          desc='Launch elfeed inside Emacs'
+        #          ),
+        #      Key([], "s",
+        #          lazy.spawn("emacsclient -c -a 'emacs' --eval '(eshell)'"),
+        #          desc='Launch the eshell inside Emacs'
+        #          ),
+        #      Key([], "v",
+        #          lazy.spawn("emacsclient -c -a 'emacs' --eval '(+vterm/here nil)'"),
+        #          desc='Launch vterm inside Emacs'
+        #          )
+        #  ]),
          # Dmenu scripts launched using the key chord SUPER+p followed by 'key'
-         KeyChord([mod], "r", [
-             Key([], "e",
-                 lazy.spawn("./dmscripts/dm-confedit"),
-                 desc='Choose a config file to edit'
-                 ),
-             Key([], "i",
-                 lazy.spawn("./dmscripts/dm-maim"),
-                 desc='Take screenshots via dmenu'
-                 ),
-             Key([], "k",
-                 lazy.spawn("./dmscripts/dm-kill"),
-                 desc='Kill processes via dmenu'
-                 ),
-             Key([], "l",
-                 lazy.spawn("./dmscripts/dm-logout"),
-                 desc='A logout menu'
-                 ),
-             Key([], "m",
-                 lazy.spawn("./dmscripts/dm-man"),
-                 desc='Search manpages in dmenu'
-                 ),
-             Key([], "o",
-                 lazy.spawn("./dmscripts/dm-bookman"),
-                 desc='Search your qutebrowser bookmarks and quickmarks'
-                 ),
-             Key([], "r",
-                 lazy.spawn("./dmscripts/dm-reddit"),
-                 desc='Search reddit via dmenu'
-                 ),
-             Key([], "s",
-                 lazy.spawn("./dmscripts/dm-websearch"),
-                 desc='Search various search engines via dmenu'
-                 ),
-             Key([], "p",
-                 lazy.spawn("passmenu"),
-                 desc='Retrieve passwords with dmenu'
-                 )
-         ])
+        #  KeyChord([mod], "r", [
+        #      Key([], "e",
+        #          lazy.spawn("./dmscripts/dm-confedit"),
+        #          desc='Choose a config file to edit'
+        #          ),
+        #      Key([], "i",
+        #          lazy.spawn("./dmscripts/dm-maim"),
+        #          desc='Take screenshots via dmenu'
+        #          ),
+        #      Key([], "k",
+        #          lazy.spawn("./dmscripts/dm-kill"),
+        #          desc='Kill processes via dmenu'
+        #          ),
+        #      Key([], "l",
+        #          lazy.spawn("./dmscripts/dm-logout"),
+        #          desc='A logout menu'
+        #          ),
+        #      Key([], "m",
+        #          lazy.spawn("./dmscripts/dm-man"),
+        #          desc='Search manpages in dmenu'
+        #          ),
+        #      Key([], "o",
+        #          lazy.spawn("./dmscripts/dm-bookman"),
+        #          desc='Search your qutebrowser bookmarks and quickmarks'
+        #          ),
+        #      Key([], "r",
+        #          lazy.spawn("./dmscripts/dm-reddit"),
+        #          desc='Search reddit via dmenu'
+        #          ),
+        #      Key([], "s",
+        #          lazy.spawn("./dmscripts/dm-websearch"),
+        #          desc='Search various search engines via dmenu'
+        #          ),
+        #      Key([], "p",
+        #          lazy.spawn("passmenu"),
+        #          desc='Retrieve passwords with dmenu'
+        #          )
+        #  ])
 ]
 
 groups = [Group("1", layout='monadtall'),
@@ -287,14 +291,14 @@ layouts = [
     #layout.Stack(stacks=2, **layout_theme),
     #layout.Columns(**layout_theme),
     #layout.RatioTile(**layout_theme),
-    layout.Tile(shift_windows=True, **layout_theme),
+    #layout.Tile(shift_windows=True, **layout_theme),
     #layout.VerticalTile(**layout_theme),
     #layout.Matrix(**layout_theme),
     #layout.Zoomy(**layout_theme),
     layout.MonadTall(**layout_theme),
     layout.Max(**layout_theme),
-    layout.Stack(num_stacks=2),
-    layout.RatioTile(**layout_theme),
+    #layout.Stack(num_stacks=2),
+    #layout.RatioTile(**layout_theme),
     #layout.TreeTab(
     #     font = "Ubuntu",
     #     fontsize = 10,
@@ -531,7 +535,7 @@ def init_widgets_list():
 
 def init_widgets_screen1():
     widgets_screen1 = init_widgets_list()
-    del widgets_screen1[9:10]               # Slicing removes unwanted widgets (systray) on Monitors 1,3
+    #del widgets_screen1[9:10]               # Slicing removes unwanted widgets (systray) on Monitors 1,3
     return widgets_screen1
 
 def init_widgets_screen2():
@@ -596,6 +600,7 @@ floating_layout = layout.Floating(float_rules=[
     *layout.Floating.default_float_rules,
     Match(title='Confirmation'),      # tastyworks exit box
     Match(title='Qalculate!'),        # qalculate-gtk
+    Match(title='Bluetooth'),         # Blueberry
     Match(wm_class='kdenlive'),       # kdenlive
     Match(wm_class='pinentry-gtk-2'), # GPG key password entry
 ])

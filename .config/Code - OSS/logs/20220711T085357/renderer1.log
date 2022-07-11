@@ -1,0 +1,2 @@
+[2022-07-11 08:53:59.649] [renderer1] [critical] Extension 'GitHub.vscode-pull-request-github CANNOT USE these API proposals 'tokenInformation, commentsResolvedState'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+[2022-07-11 08:53:59.879] [renderer1] [info] [GitHub.vscode-pull-request-github]: `remoteHub/pullRequest` is not a valid menu identifier

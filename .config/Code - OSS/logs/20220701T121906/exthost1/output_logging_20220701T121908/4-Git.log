@@ -1,0 +1,5 @@
+[2022-07-01T11:19:09.429Z] Log level: Info
+[2022-07-01T11:19:09.430Z] [info] Validating found git in: git
+[2022-07-01T11:19:09.446Z] [info] Using git 2.37.0 from git
+[2022-07-01T11:19:09.458Z] > git rev-parse --show-toplevel [3ms]
+[2022-07-01T11:19:09.458Z] fatal: not a git repository (or any of the parent directories): .git

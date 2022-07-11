@@ -3,6 +3,7 @@ if status is-interactive
 end
 
 export PATH="$HOME/.local/bin:$PATH"
+export PATH="$PATH:$HOME/.emacs.d/bin"
 
 alias pacman="sudo pacman"
 alias neofetch="neofetch --color_blocks off"
