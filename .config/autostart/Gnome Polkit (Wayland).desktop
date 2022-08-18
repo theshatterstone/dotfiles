@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Version=1.0
+Type=Application
+Name=Gnome Polkit (Wayland)
+Comment=
+Exec=usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
+TryExec=usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
+StartupNotify=false
+X-GNOME-Autostart-enabled=true
+Terminal=false
+Hidden=false

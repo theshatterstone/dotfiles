@@ -1,0 +1,140 @@
+[2022-08-18T11:44:09.715Z] Log level: Info
+[2022-08-18T11:44:09.716Z] [info] Validating found git in: git
+[2022-08-18T11:44:09.729Z] [info] Using git 2.37.2 from git
+[2022-08-18T11:44:09.741Z] > git rev-parse --show-toplevel [4ms]
+[2022-08-18T11:44:09.749Z] > git rev-parse --git-dir --git-common-dir [1ms]
+[2022-08-18T11:44:09.759Z] [info] Open repository: /home/shatterstone/Documents/fetch
+[2022-08-18T11:44:09.779Z] > git status -z -uall [12ms]
+[2022-08-18T11:44:09.786Z] > git symbolic-ref --short HEAD [1ms]
+[2022-08-18T11:44:09.791Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+[2022-08-18T11:44:09.818Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [22ms]
+[2022-08-18T11:44:09.818Z] > git remote --verbose [10ms]
+[2022-08-18T11:44:09.829Z] > git config --get commit.template [1ms]
+[2022-08-18T11:44:09.858Z] > git status -z -uall [4ms]
+[2022-08-18T11:44:09.864Z] > git symbolic-ref --short HEAD [1ms]
+[2022-08-18T11:44:09.875Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+[2022-08-18T11:44:09.887Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [7ms]
+[2022-08-18T11:44:09.888Z] > git remote --verbose [2ms]
+[2022-08-18T11:44:09.897Z] > git config --get commit.template [1ms]
+[2022-08-18T11:44:10.223Z] > git show --textconv :fetch.sh [6ms]
+[2022-08-18T11:44:10.223Z] > git ls-files --stage -- /home/shatterstone/Documents/fetch/fetch.sh [1ms]
+[2022-08-18T11:44:10.321Z] > git check-ignore -v -z --stdin [2ms]
+[2022-08-18T11:44:20.620Z] > git push origin main:main [4858ms]
+[2022-08-18T11:44:20.620Z] Everything up-to-date
+[2022-08-18T11:44:20.627Z] > git status -z -uall [1ms]
+[2022-08-18T11:44:20.634Z] > git symbolic-ref --short HEAD [0ms]
+[2022-08-18T11:44:20.642Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+[2022-08-18T11:44:20.656Z] > git remote --verbose [1ms]
+[2022-08-18T11:44:20.656Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [8ms]
+[2022-08-18T11:44:20.665Z] > git config --get commit.template [1ms]
+[2022-08-18T11:44:32.766Z] > git push origin main:main [692ms]
+[2022-08-18T11:44:32.766Z] Everything up-to-date
+[2022-08-18T11:44:32.775Z] > git status -z -uall [3ms]
+[2022-08-18T11:44:32.781Z] > git symbolic-ref --short HEAD [1ms]
+[2022-08-18T11:44:32.788Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+[2022-08-18T11:44:32.801Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [6ms]
+[2022-08-18T11:44:32.801Z] > git remote --verbose [1ms]
+[2022-08-18T11:44:32.809Z] > git config --get commit.template [1ms]
+[2022-08-18T11:44:39.596Z] > git add -A -- . [1ms]
+[2022-08-18T11:44:39.603Z] > git -c user.useConfigOnly=true commit --quiet [2ms]
+[2022-08-18T11:44:39.603Z] Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: no email was given and auto-detection is disabled
+[2022-08-18T11:44:39.608Z] > git config --get-all user.name [1ms]
+[2022-08-18T11:44:43.068Z] > git status -z -uall [2ms]
+[2022-08-18T11:44:43.075Z] > git symbolic-ref --short HEAD [0ms]
+[2022-08-18T11:44:43.085Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+[2022-08-18T11:44:43.097Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [7ms]
+[2022-08-18T11:44:43.098Z] > git remote --verbose [1ms]
+[2022-08-18T11:44:43.108Z] > git config --get commit.template [2ms]
+[2022-08-18T11:44:43.173Z] > git ls-files --stage -- /home/shatterstone/Documents/fetch/fetch.sh [1ms]
+[2022-08-18T11:44:43.180Z] > git cat-file -s 4dd587f6860c0648abd66015364a2a1cc8b75376 [1ms]
+[2022-08-18T11:44:43.236Z] > git show --textconv :fetch.sh [1ms]
+[2022-08-18T11:44:50.878Z] > git -c user.useConfigOnly=true commit --quiet [1ms]
+[2022-08-18T11:44:50.878Z] Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: no email was given and auto-detection is disabled
+[2022-08-18T11:44:50.882Z] > git config --get-all user.name [0ms]
+[2022-08-18T11:47:16.946Z] > git show --textconv :.git/COMMIT_EDITMSG [5ms]
+[2022-08-18T11:47:16.947Z] > git ls-files --stage -- /home/shatterstone/Documents/fetch/.git/COMMIT_EDITMSG [1ms]
+[2022-08-18T11:47:17.264Z] > git check-ignore -v -z --stdin [1ms]
+[2022-08-18T11:47:17.859Z] > git ls-files --stage -- /home/shatterstone/Documents/fetch/.git/COMMIT_EDITMSG [0ms]
+[2022-08-18T11:47:17.868Z] > git show --textconv :.git/COMMIT_EDITMSG [1ms]
+[2022-08-18T11:48:15.712Z] > git -c user.useConfigOnly=true commit --quiet [59169ms]
+[2022-08-18T11:48:15.712Z] Aborting commit due to empty commit message.
+[2022-08-18T11:48:15.941Z] > git show --textconv :fetch.sh [7ms]
+[2022-08-18T11:48:15.942Z] > git ls-files --stage -- /home/shatterstone/Documents/fetch/fetch.sh [2ms]
+[2022-08-18T11:48:15.948Z] > git cat-file -s 4dd587f6860c0648abd66015364a2a1cc8b75376 [0ms]
+[2022-08-18T11:48:18.747Z] > git show --textconv :.git/COMMIT_EDITMSG [7ms]
+[2022-08-18T11:48:18.748Z] > git ls-files --stage -- /home/shatterstone/Documents/fetch/.git/COMMIT_EDITMSG [2ms]
+[2022-08-18T11:48:19.532Z] > git ls-files --stage -- /home/shatterstone/Documents/fetch/.git/COMMIT_EDITMSG [2ms]
+[2022-08-18T11:48:19.544Z] > git show --textconv :.git/COMMIT_EDITMSG [1ms]
+[2022-08-18T11:48:27.113Z] > git show --textconv :fetch.sh [6ms]
+[2022-08-18T11:48:27.114Z] > git ls-files --stage -- /home/shatterstone/Documents/fetch/fetch.sh [1ms]
+[2022-08-18T11:48:27.121Z] > git cat-file -s 4dd587f6860c0648abd66015364a2a1cc8b75376 [1ms]
+[2022-08-18T11:48:35.241Z] > git show --textconv :.git/COMMIT_EDITMSG [7ms]
+[2022-08-18T11:48:35.243Z] > git ls-files --stage -- /home/shatterstone/Documents/fetch/.git/COMMIT_EDITMSG [3ms]
+[2022-08-18T11:48:37.466Z] > git -c user.useConfigOnly=true commit --quiet [19107ms]
+[2022-08-18T11:48:37.466Z] Aborting commit due to empty commit message.
+[2022-08-18T11:48:37.695Z] > git show --textconv :fetch.sh [8ms]
+[2022-08-18T11:48:37.696Z] > git ls-files --stage -- /home/shatterstone/Documents/fetch/fetch.sh [2ms]
+[2022-08-18T11:48:37.704Z] > git cat-file -s 4dd587f6860c0648abd66015364a2a1cc8b75376 [2ms]
+[2022-08-18T11:48:49.538Z] > git -c user.useConfigOnly=true commit --quiet --allow-empty-message --file - [5ms]
+[2022-08-18T11:48:49.545Z] > git status -z -uall [0ms]
+[2022-08-18T11:48:49.552Z] > git symbolic-ref --short HEAD [1ms]
+[2022-08-18T11:48:49.560Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+[2022-08-18T11:48:49.571Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [6ms]
+[2022-08-18T11:48:49.572Z] > git remote --verbose [2ms]
+[2022-08-18T11:48:49.580Z] > git config --get commit.template [1ms]
+[2022-08-18T11:48:49.586Z] > git config --get commit.template [1ms]
+[2022-08-18T11:48:50.698Z] > git status -z -uall [1ms]
+[2022-08-18T11:48:50.705Z] > git symbolic-ref --short HEAD [1ms]
+[2022-08-18T11:48:50.712Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+[2022-08-18T11:48:50.722Z] > git remote --verbose [1ms]
+[2022-08-18T11:48:50.723Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [7ms]
+[2022-08-18T11:48:50.729Z] > git config --get commit.template [0ms]
+[2022-08-18T11:48:51.307Z] > git ls-files --stage -- /home/shatterstone/Documents/fetch/fetch.sh [1ms]
+[2022-08-18T11:48:51.315Z] > git cat-file -s 4dd587f6860c0648abd66015364a2a1cc8b75376 [1ms]
+[2022-08-18T11:48:51.323Z] > git show --textconv :fetch.sh [1ms]
+[2022-08-18T11:48:52.646Z] > git log --oneline --cherry main...main@{upstream} -- [1ms]
+[2022-08-18T11:48:53.043Z] > git pull --tags origin main [391ms]
+[2022-08-18T11:48:53.043Z] From https://github.com/theshatterstone/fetch
+ * branch            main       -> FETCH_HEAD
+[2022-08-18T11:48:54.213Z] > git push origin main:main [1163ms]
+[2022-08-18T11:48:54.213Z] To https://github.com/theshatterstone/fetch
+   cec43dc..822c450  main -> main
+[2022-08-18T11:48:54.220Z] > git status -z -uall [1ms]
+[2022-08-18T11:48:54.229Z] > git symbolic-ref --short HEAD [2ms]
+[2022-08-18T11:48:54.235Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+[2022-08-18T11:48:54.249Z] > git remote --verbose [2ms]
+[2022-08-18T11:48:54.249Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [8ms]
+[2022-08-18T11:48:54.258Z] > git config --get commit.template [1ms]
+[2022-08-18T11:48:55.399Z] > git ls-files --stage -- /home/shatterstone/Documents/fetch/fetch.sh [0ms]
+[2022-08-18T11:48:55.407Z] > git cat-file -s 4dd587f6860c0648abd66015364a2a1cc8b75376 [1ms]
+[2022-08-18T11:48:55.419Z] > git show --textconv :fetch.sh [2ms]
+[2022-08-18T11:48:55.739Z] > git status -z -uall [3ms]
+[2022-08-18T11:48:55.744Z] > git symbolic-ref --short HEAD [1ms]
+[2022-08-18T11:48:55.750Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+[2022-08-18T11:48:55.764Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [7ms]
+[2022-08-18T11:48:55.764Z] > git remote --verbose [2ms]
+[2022-08-18T11:48:55.771Z] > git config --get commit.template [1ms]

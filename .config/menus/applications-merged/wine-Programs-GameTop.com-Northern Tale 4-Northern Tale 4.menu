@@ -1,0 +1,24 @@
+<!DOCTYPE Menu PUBLIC "-//freedesktop//DTD Menu 1.0//EN"
+"http://www.freedesktop.org/standards/menu-spec/menu-1.0.dtd">
+<Menu>
+  <Name>Applications</Name>
+  <Menu>
+    <Name>wine-wine</Name>
+    <Directory>wine-wine.directory</Directory>
+  <Menu>
+    <Name>wine-Programs</Name>
+    <Directory>wine-Programs.directory</Directory>
+  <Menu>
+    <Name>wine-Programs-GameTop.com</Name>
+    <Directory>wine-Programs-GameTop.com.directory</Directory>
+  <Menu>
+    <Name>wine-Programs-GameTop.com-Northern Tale 4</Name>
+    <Directory>wine-Programs-GameTop.com-Northern Tale 4.directory</Directory>
+    <Include>
+      <Filename>wine-Programs-GameTop.com-Northern Tale 4-Northern Tale 4.desktop</Filename>
+    </Include>
+  </Menu>
+  </Menu>
+  </Menu>
+  </Menu>
+</Menu>

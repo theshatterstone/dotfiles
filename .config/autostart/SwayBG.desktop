@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Version=1.0
+Type=Application
+Name=SwayBG
+Comment=
+Exec=swaybg -m fill -i ~/wallpapers/0066.jpg
+TryExec=swaybg -m fill -i ~/wallpapers/0066.jpg
+StartupNotify=false
+X-GNOME-Autostart-enabled=true
+Terminal=false
+Hidden=false

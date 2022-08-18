@@ -2,17 +2,38 @@
     "telemetry.machineId": "fcce48d05e25f073f481c2488f507404dbc4a7b4f542674bd790ae845341f43e",
     "windowsState": {
         "lastActiveWindow": {
-            "folder": "file:///home/shatterstone/.config/qtile",
-            "backupPath": "/home/shatterstone/.config/Code - OSS/Backups/caaa8ded2e5fc8806e76537548338791",
+            "backupPath": "/home/shatterstone/.config/Code - OSS/Backups/1660826862262",
             "uiState": {
                 "mode": 1,
-                "x": 6,
-                "y": 26,
-                "width": 1908,
-                "height": 1048
+                "x": 7,
+                "y": 27,
+                "width": 1898,
+                "height": 1038
             }
         },
-        "openedWindows": []
+        "openedWindows": [
+            {
+                "folder": "file:///home/shatterstone/Documents/fetch",
+                "backupPath": "/home/shatterstone/.config/Code - OSS/Backups/fc7c6c897622dbad650521e6f98f6f9a",
+                "uiState": {
+                    "mode": 1,
+                    "x": 7,
+                    "y": 27,
+                    "width": 1898,
+                    "height": 1038
+                }
+            },
+            {
+                "backupPath": "/home/shatterstone/.config/Code - OSS/Backups/1660826862262",
+                "uiState": {
+                    "mode": 1,
+                    "x": 7,
+                    "y": 27,
+                    "width": 1898,
+                    "height": 1038
+                }
+            }
+        ]
     },
     "lastKnownMenubarData": {
         "menus": {
@@ -46,13 +67,14 @@
                         "label": "Open Wor&&kspace from File..."
                     },
                     {
-                        "id": "submenuitem.37",
+                        "id": "submenuitem.MenubarRecentMenu",
                         "label": "Open &&Recent",
                         "submenu": {
                             "items": [
                                 {
                                     "id": "workbench.action.reopenClosedEditor",
-                                    "label": "&&Reopen Closed Editor"
+                                    "label": "&&Reopen Closed Editor",
+                                    "enabled": false
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -61,7 +83,17 @@
                                     "id": "openRecentFolder",
                                     "uri": {
                                         "$mid": 1,
-                                        "fsPath": "/home/shatterstone/.config/qtile",
+                                        "external": "file:///home/shatterstone/Documents/fetch",
+                                        "path": "/home/shatterstone/Documents/fetch",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Documents/fetch"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
                                         "external": "file:///home/shatterstone/.config/qtile",
                                         "path": "/home/shatterstone/.config/qtile",
                                         "scheme": "file"
@@ -98,111 +130,111 @@
                                     "id": "openRecentFile",
                                     "uri": {
                                         "$mid": 1,
-                                        "external": "file:///home/shatterstone/.local/share/qtile/qtile.log",
-                                        "path": "/home/shatterstone/.local/share/qtile/qtile.log",
+                                        "external": "file:///home/shatterstone/Documents/fetch/fetch.sh",
+                                        "path": "/home/shatterstone/Documents/fetch/fetch.sh",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
-                                    "label": "~/.local/share/qtile/qtile.log"
+                                    "label": "~/Documents/fetch/fetch.sh"
                                 },
                                 {
                                     "id": "openRecentFile",
                                     "uri": {
                                         "$mid": 1,
-                                        "external": "file:///home/shatterstone/Music/%20%2Atemp%2A",
-                                        "path": "/home/shatterstone/Music/ *temp*",
+                                        "external": "file:///home/shatterstone/.config/qtile/default.py",
+                                        "path": "/home/shatterstone/.config/qtile/default.py",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
-                                    "label": "~/Music/ *temp*"
+                                    "label": "~/.config/qtile/default.py"
                                 },
                                 {
                                     "id": "openRecentFile",
                                     "uri": {
                                         "$mid": 1,
-                                        "external": "file:///var/log/archlinux/att/att-log-2022-07-01-11-57-41",
-                                        "path": "/var/log/archlinux/att/att-log-2022-07-01-11-57-41",
+                                        "external": "file:///home/shatterstone/.config/qtile/scripts/autostart-wayland.sh",
+                                        "path": "/home/shatterstone/.config/qtile/scripts/autostart-wayland.sh",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
-                                    "label": "/var/log/archlinux/att/att-log-2022-07-01-11-57-41"
+                                    "label": "~/.config/qtile/scripts/autostart-wayland.sh"
                                 },
                                 {
                                     "id": "openRecentFile",
                                     "uri": {
                                         "$mid": 1,
-                                        "external": "file:///home/shatterstone/.config/qtile/autostart.sh",
-                                        "path": "/home/shatterstone/.config/qtile/autostart.sh",
+                                        "external": "file:///home/shatterstone/.config/qtile/config.py",
+                                        "path": "/home/shatterstone/.config/qtile/config.py",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
-                                    "label": "~/.config/qtile/autostart.sh"
+                                    "label": "~/.config/qtile/config.py"
                                 },
                                 {
                                     "id": "openRecentFile",
                                     "uri": {
                                         "$mid": 1,
-                                        "external": "file:///home/shatterstone/.local/bin/statusbar/volumecontrol",
-                                        "path": "/home/shatterstone/.local/bin/statusbar/volumecontrol",
+                                        "external": "file:///home/shatterstone/.config/alacritty/alacritty.yml",
+                                        "path": "/home/shatterstone/.config/alacritty/alacritty.yml",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
-                                    "label": "~/.local/bin/statusbar/volumecontrol"
+                                    "label": "~/.config/alacritty/alacritty.yml"
                                 },
                                 {
                                     "id": "openRecentFile",
                                     "uri": {
                                         "$mid": 1,
-                                        "external": "file:///home/shatterstone/.config/neofetch/config.conf",
-                                        "path": "/home/shatterstone/.config/neofetch/config.conf",
+                                        "external": "file:///home/shatterstone/.config/foot/foot.ini",
+                                        "path": "/home/shatterstone/.config/foot/foot.ini",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
-                                    "label": "~/.config/neofetch/config.conf"
+                                    "label": "~/.config/foot/foot.ini"
                                 },
                                 {
                                     "id": "openRecentFile",
                                     "uri": {
                                         "$mid": 1,
-                                        "external": "file:///etc/grub.d/40_custom",
-                                        "path": "/etc/grub.d/40_custom",
+                                        "external": "file:///home/shatterstone/.config/qtile/config-wayland-broken.py",
+                                        "path": "/home/shatterstone/.config/qtile/config-wayland-broken.py",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
-                                    "label": "/etc/grub.d/40_custom"
+                                    "label": "~/.config/qtile/config-wayland-broken.py"
                                 },
                                 {
                                     "id": "openRecentFile",
                                     "uri": {
                                         "$mid": 1,
-                                        "external": "file:///run/media/shatterstone/47ea8aef-df62-45af-8bb9-f030ee23d229/etc/default/grub",
-                                        "path": "/run/media/shatterstone/47ea8aef-df62-45af-8bb9-f030ee23d229/etc/default/grub",
+                                        "external": "file:///home/shatterstone/.config/qtile/default-2.py",
+                                        "path": "/home/shatterstone/.config/qtile/default-2.py",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
-                                    "label": "/run/media/shatterstone/47ea8aef-df62-45af-8bb9-f030ee23d229/etc/default/grub"
+                                    "label": "~/.config/qtile/default-2.py"
                                 },
                                 {
                                     "id": "openRecentFile",
                                     "uri": {
                                         "$mid": 1,
-                                        "external": "file:///etc/default/grub",
-                                        "path": "/etc/default/grub",
+                                        "external": "file:///home/shatterstone/.config/qtile/current-config.py",
+                                        "path": "/home/shatterstone/.config/qtile/current-config.py",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
-                                    "label": "/etc/default/grub"
+                                    "label": "~/.config/qtile/current-config.py"
                                 },
                                 {
                                     "id": "openRecentFile",
                                     "uri": {
                                         "$mid": 1,
-                                        "external": "file:///run/media/shatterstone/47ea8aef-df62-45af-8bb9-f030ee23d229/boot/grub/grub.cfg",
-                                        "path": "/run/media/shatterstone/47ea8aef-df62-45af-8bb9-f030ee23d229/boot/grub/grub.cfg",
+                                        "external": "file:///home/shatterstone/.config/qtile/default-config.py",
+                                        "path": "/home/shatterstone/.config/qtile/default-config.py",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
-                                    "label": "/run/media/shatterstone/47ea8aef-df62-45af-8bb9-f030ee23d229/boot/grub/grub.cfg"
+                                    "label": "~/.config/qtile/default-config.py"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -260,7 +292,7 @@
                         "label": "A&&uto Save"
                     },
                     {
-                        "id": "submenuitem.36",
+                        "id": "submenuitem.MenubarPreferencesMenu",
                         "label": "&&Preferences",
                         "submenu": {
                             "items": [
@@ -326,10 +358,6 @@
                     {
                         "id": "workbench.action.closeActiveEditor",
                         "label": "&&Close Editor"
-                    },
-                    {
-                        "id": "workbench.action.closeFolder",
-                        "label": "Close &&Folder"
                     },
                     {
                         "id": "workbench.action.closeWindow",
@@ -499,7 +527,7 @@
                         "id": "vscode.menubar.separator"
                     },
                     {
-                        "id": "submenuitem.25",
+                        "id": "submenuitem.MenubarAppearanceMenu",
                         "label": "&&Appearance",
                         "submenu": {
                             "items": [
@@ -520,31 +548,31 @@
                                 },
                                 {
                                     "id": "workbench.action.toggleMenuBar",
-                                    "label": "Show Menu &&Bar",
+                                    "label": "Menu &&Bar",
                                     "checked": true
                                 },
                                 {
                                     "id": "workbench.action.toggleSidebarVisibility",
-                                    "label": "Show &&Primary Side Bar",
+                                    "label": "&&Primary Side Bar",
                                     "checked": true
                                 },
                                 {
                                     "id": "workbench.action.toggleAuxiliaryBar",
-                                    "label": "Show Secondary Si&&de Bar"
+                                    "label": "Secondary Si&&de Bar"
                                 },
                                 {
                                     "id": "workbench.action.toggleStatusbarVisibility",
-                                    "label": "Show S&&tatus Bar",
+                                    "label": "S&&tatus Bar",
                                     "checked": true
                                 },
                                 {
                                     "id": "workbench.action.toggleActivityBarVisibility",
-                                    "label": "Show &&Activity Bar",
+                                    "label": "&&Activity Bar",
                                     "checked": true
                                 },
                                 {
                                     "id": "workbench.action.togglePanel",
-                                    "label": "Show &&Panel"
+                                    "label": "&&Panel"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -554,7 +582,7 @@
                                     "label": "&&Move Primary Side Bar Right"
                                 },
                                 {
-                                    "id": "submenuitem.35",
+                                    "id": "submenuitem.MenubarPanelPositionMenu",
                                     "label": "Panel Position",
                                     "submenu": {
                                         "items": [
@@ -575,7 +603,7 @@
                                     }
                                 },
                                 {
-                                    "id": "submenuitem.34",
+                                    "id": "submenuitem.MenubarPanelAlignmentMenu",
                                     "label": "Align Panel",
                                     "submenu": {
                                         "items": [
@@ -618,7 +646,7 @@
                         }
                     },
                     {
-                        "id": "submenuitem.32",
+                        "id": "submenuitem.MenubarLayoutMenu",
                         "label": "Editor &&Layout",
                         "submenu": {
                             "items": [
@@ -637,13 +665,6 @@
                                 {
                                     "id": "workbench.action.splitEditorRight",
                                     "label": "Split &&Right"
-                                },
-                                {
-                                    "id": "vscode.menubar.separator"
-                                },
-                                {
-                                    "id": "workbench.action.splitEditorInGroup",
-                                    "label": "Split in &&Group"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -737,16 +758,17 @@
                     },
                     {
                         "id": "editor.action.toggleWordWrap",
-                        "label": "&&Word Wrap"
+                        "label": "&&Word Wrap",
+                        "enabled": false
                     },
                     {
                         "id": "editor.action.toggleMinimap",
-                        "label": "Show &&Minimap",
+                        "label": "&&Minimap",
                         "checked": true
                     },
                     {
                         "id": "breadcrumbs.toggle",
-                        "label": "Show &&Breadcrumbs",
+                        "label": "&&Breadcrumbs",
                         "checked": true
                     },
                     {
@@ -765,7 +787,8 @@
                 "items": [
                     {
                         "id": "workbench.action.navigateBack",
-                        "label": "&&Back"
+                        "label": "&&Back",
+                        "enabled": false
                     },
                     {
                         "id": "workbench.action.navigateForward",
@@ -781,7 +804,7 @@
                         "id": "vscode.menubar.separator"
                     },
                     {
-                        "id": "submenuitem.40",
+                        "id": "submenuitem.MenubarSwitchEditorMenu",
                         "label": "Switch &&Editor",
                         "submenu": {
                             "items": [
@@ -830,7 +853,7 @@
                         }
                     },
                     {
-                        "id": "submenuitem.41",
+                        "id": "submenuitem.MenubarSwitchGroupMenu",
                         "label": "Switch &&Group",
                         "submenu": {
                             "items": [
@@ -1032,7 +1055,7 @@
                         "label": "Toggle &&Breakpoint"
                     },
                     {
-                        "id": "submenuitem.33",
+                        "id": "submenuitem.MenubarNewBreakpointMenu",
                         "label": "&&New Breakpoint",
                         "submenu": {
                             "items": [
@@ -1252,7 +1275,6 @@
             },
             "workbench.action.openSettings": {
                 "label": "Ctrl+,",
-                "isNative": false,
                 "userSettingsLabel": "ctrl+,"
             },
             "workbench.view.extensions": {
@@ -1272,11 +1294,6 @@
             "workbench.action.closeActiveEditor": {
                 "label": "Ctrl+W",
                 "userSettingsLabel": "ctrl+w"
-            },
-            "workbench.action.closeFolder": {
-                "label": "Ctrl+K F",
-                "isNative": false,
-                "userSettingsLabel": "ctrl+k f"
             },
             "workbench.action.closeWindow": {
                 "label": "Alt+F4",
@@ -1324,7 +1341,6 @@
             },
             "editor.action.commentLine": {
                 "label": "Ctrl+/",
-                "isNative": false,
                 "userSettingsLabel": "ctrl+/"
             },
             "editor.action.blockComment": {
@@ -1406,23 +1422,16 @@
             },
             "workbench.action.zoomIn": {
                 "label": "Ctrl+=",
-                "isNative": false,
                 "userSettingsLabel": "ctrl+="
             },
             "workbench.action.zoomOut": {
                 "label": "Ctrl+-",
-                "isNative": false,
                 "userSettingsLabel": "ctrl+-"
             },
             "workbench.action.zoomReset": {
                 "label": "Ctrl+NumPad0",
                 "isNative": false,
                 "userSettingsLabel": "ctrl+numpad0"
-            },
-            "workbench.action.splitEditorInGroup": {
-                "label": "Ctrl+K Ctrl+Shift+\\",
-                "isNative": false,
-                "userSettingsLabel": "ctrl+k ctrl+shift+\\"
             },
             "workbench.action.toggleEditorGroupLayout": {
                 "label": "Shift+Alt+0",
@@ -1459,21 +1468,14 @@
             },
             "workbench.action.terminal.toggleTerminal": {
                 "label": "Ctrl+`",
-                "isNative": false,
                 "userSettingsLabel": "ctrl+`"
             },
             "editor.action.toggleWordWrap": {
                 "label": "Alt+Z",
                 "userSettingsLabel": "alt+z"
             },
-            "workbench.action.navigateBack": {
-                "label": "Ctrl+Alt+-",
-                "isNative": false,
-                "userSettingsLabel": "ctrl+alt+-"
-            },
             "workbench.action.navigateForward": {
                 "label": "Ctrl+Shift+-",
-                "isNative": false,
                 "userSettingsLabel": "ctrl+shift+-"
             },
             "workbench.action.navigateToLastEditLocation": {
@@ -1569,7 +1571,6 @@
             },
             "editor.action.jumpToBracket": {
                 "label": "Ctrl+Shift+\\",
-                "isNative": false,
                 "userSettingsLabel": "ctrl+shift+\\"
             },
             "editor.action.marker.nextInFiles": {
@@ -1630,7 +1631,6 @@
             },
             "workbench.action.terminal.new": {
                 "label": "Ctrl+Shift+`",
-                "isNative": false,
                 "userSettingsLabel": "ctrl+shift+`"
             },
             "workbench.action.terminal.split": {

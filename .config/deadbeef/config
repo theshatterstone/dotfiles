@@ -1,14 +1,37 @@
+cli_add_playlist_name Default
 deadbeef_version 1.9.1
 filechooser.lastdir file:///home/shatterstone/Music/Music
-filechooser.playlist.lastdir file:///home/shatterstone/Music/Playlists
+filechooser.playlist.lastdir file:///home/shatterstone/Music
+gtkui.color.bar_background 0 0 0
+gtkui.color.bar_foreground 13621 33924 58596
+gtkui.color.listview_column_text 24158 23644 25700
+gtkui.color.listview_even_row 11822 13364 13878
+gtkui.color.listview_odd_row 11822 13364 13878
+gtkui.color.listview_playing_text 17990 31610 38550
+gtkui.color.listview_selection 13621 33924 58596
+gtkui.color.listview_text 65535 65535 65535
+gtkui.color.tabstrip_base 15677 14392 17990
+gtkui.color.tabstrip_dark 9252 7967 12593
+gtkui.color.tabstrip_light 30583 30326 31611
+gtkui.color.tabstrip_mid 24158 23644 25700
+gtkui.color.tabstrip_playing_text 65535 65535 65535
+gtkui.color.tabstrip_selected_text 13621 33924 58596
+gtkui.color.tabstrip_text 63222 62965 62708
 gtkui.columns.playlist [{"title":"♫","id":"1","format":"%playstatus%","sort_format":"","size":"50","align":"0","color_override":"0","color":"#ff000000"},{"title":"Artist / Album","id":"-1","format":"$if(%artist%,%artist%,Unknown Artist)[ - %album%]","sort_format":"","size":"150","align":"0","color_override":"0","color":"#ff000000"},{"title":"Track No.","id":"-1","format":"%tracknumber%","sort_format":"","size":"50","align":"1","color_override":"0","color":"#ff000000"},{"title":"Title","id":"-1","format":"%title%","sort_format":"","size":"150","align":"0","color_override":"0","color":"#ff000000"},{"title":"Duration","id":"-1","format":"%length%","sort_format":"","size":"50","align":"0","color_override":"0","color":"#ff000000"}]
 gtkui.columns.search [{"title":"Artist / Album","id":"-1","format":"$if(%artist%,%artist%,Unknown Artist)[ - %album%]","sort_format":"","size":"150","align":"0","color_override":"0","color":"#ff000000"},{"title":"Track No","id":"-1","format":"%tracknumber%","sort_format":"","size":"50","align":"1","color_override":"0","color":"#ff000000"},{"title":"Title","id":"-1","format":"%title%","sort_format":"","size":"150","align":"0","color_override":"0","color":"#ff000000"},{"title":"Duration","id":"-1","format":"%length%","sort_format":"","size":"50","align":"0","color_override":"0","color":"#ff000000"}]
+gtkui.eq.visible 0
 gtkui.last_playlist_save_name /home/shatterstone/Music/Music/Playlists/100_CLR.dbpl
-gtkui.layout.1.9.0 {"type":"vbox","legacy_params":" expand=\"0 1\" fill=\"1 1\" homogeneous=0","children":[{"type":"hbox","legacy_params":" expand=\"0 1 0\" fill=\"1 1 1\" homogeneous=0","children":[{"type":"playtb"},{"type":"seekbar"},{"type":"volumebar","settings":{"scale":"db"}}]},{"type":"tabbed_playlist","legacy_params":" hideheaders=0 width=1908"}]}
+gtkui.layout.1.9.0 {"type":"vbox","legacy_params":" expand=\"0 1\" fill=\"1 1\" homogeneous=0","children":[{"type":"hbox","legacy_params":" expand=\"0 1 0\" fill=\"1 1 1\" homogeneous=0","children":[{"type":"playtb"},{"type":"seekbar"},{"type":"volumebar","settings":{"scale":"db"}}]},{"type":"tabbed_playlist","legacy_params":" hideheaders=0 width=1898"}]}
+gtkui.override_bar_colors 0
+gtkui.override_listview_colors 0
+gtkui.override_tabstrip_colors 0
 gtkui.playlist.group_by_tf 
 gtkui.search.group_by_tf 
-gtkui.statusbar.visible 1
+gtkui.statusbar.visible 0
 gtkui.tabscroll 0
+gtkui.titlebar_playing_tf DeaDBeeF - %artist% - %title%
+gtkui.titlebar_stopped_tf DeaDBeeF
+gtkui.vis.use_custom_base_color 0
 hotkey.key01 "Ctrl f" 0 0 find
 hotkey.key02 "Ctrl o" 0 0 open_files
 hotkey.key03 "Ctrl q" 0 0 quit
@@ -46,17 +69,19 @@ logwindow.geometry.w 948
 logwindow.geometry.x 964
 logwindow.geometry.y 24
 mainwin.geometry.h 1048
+mainwin.geometry.maximized 1
 mainwin.geometry.w 1908
-mainwin.geometry.x 4
-mainwin.geometry.y 24
+mainwin.geometry.x 0
+mainwin.geometry.y 0
+network.proxy.port 8080
 output_plugin alsa
 playback.loop 1
-playback.order 1
-playback.volume.normalized 1.0000000
+playback.order 2
+playback.volume.normalized 0.3808690
 playlist.current 2
 playlist.cursor.0 92
 playlist.cursor.1 -1
-playlist.cursor.2 0
+playlist.cursor.2 2
 playlist.cursor.3 -1
 playlist.scroll.0 -92
 playlist.scroll.1 0
@@ -67,21 +92,52 @@ playlist.tab.00000 All
 playlist.tab.00001 A9
 playlist.tab.00002 100 Greatest Classic Rock (2020)
 playlist.tab.00003 WD_
-resume.paused 1
-resume.playlist 2
-resume.position 41.378128
-resume.track 0
+prefwin.geometry.h 631
+prefwin.geometry.maximized 1
+prefwin.geometry.w 788
+prefwin.geometry.x 0
+prefwin.geometry.y 0
+resume.paused 0
+resume.playlist -1
+resume.position -1.000000
+resume.track -1
+streamer.samplerate 44100
+streamer.samplerate_mult_44 44100
+streamer.samplerate_mult_48 48000
+cli_add_playlist_name Default
 deadbeef_version 1.9.1
 filechooser.lastdir file:///home/shatterstone/Music/Music
-filechooser.playlist.lastdir file:///home/shatterstone/Music/Playlists
+filechooser.playlist.lastdir file:///home/shatterstone/Music
+gtkui.color.bar_background 0 0 0
+gtkui.color.bar_foreground 13621 33924 58596
+gtkui.color.listview_column_text 24158 23644 25700
+gtkui.color.listview_even_row 11822 13364 13878
+gtkui.color.listview_odd_row 11822 13364 13878
+gtkui.color.listview_playing_text 17990 31610 38550
+gtkui.color.listview_selection 13621 33924 58596
+gtkui.color.listview_text 65535 65535 65535
+gtkui.color.tabstrip_base 15677 14392 17990
+gtkui.color.tabstrip_dark 9252 7967 12593
+gtkui.color.tabstrip_light 30583 30326 31611
+gtkui.color.tabstrip_mid 24158 23644 25700
+gtkui.color.tabstrip_playing_text 65535 65535 65535
+gtkui.color.tabstrip_selected_text 13621 33924 58596
+gtkui.color.tabstrip_text 63222 62965 62708
 gtkui.columns.playlist [{"title":"♫","id":"1","format":"%playstatus%","sort_format":"","size":"50","align":"0","color_override":"0","color":"#ff000000"},{"title":"Artist / Album","id":"-1","format":"$if(%artist%,%artist%,Unknown Artist)[ - %album%]","sort_format":"","size":"150","align":"0","color_override":"0","color":"#ff000000"},{"title":"Track No.","id":"-1","format":"%tracknumber%","sort_format":"","size":"50","align":"1","color_override":"0","color":"#ff000000"},{"title":"Title","id":"-1","format":"%title%","sort_format":"","size":"150","align":"0","color_override":"0","color":"#ff000000"},{"title":"Duration","id":"-1","format":"%length%","sort_format":"","size":"50","align":"0","color_override":"0","color":"#ff000000"}]
 gtkui.columns.search [{"title":"Artist / Album","id":"-1","format":"$if(%artist%,%artist%,Unknown Artist)[ - %album%]","sort_format":"","size":"150","align":"0","color_override":"0","color":"#ff000000"},{"title":"Track No","id":"-1","format":"%tracknumber%","sort_format":"","size":"50","align":"1","color_override":"0","color":"#ff000000"},{"title":"Title","id":"-1","format":"%title%","sort_format":"","size":"150","align":"0","color_override":"0","color":"#ff000000"},{"title":"Duration","id":"-1","format":"%length%","sort_format":"","size":"50","align":"0","color_override":"0","color":"#ff000000"}]
+gtkui.eq.visible 0
 gtkui.last_playlist_save_name /home/shatterstone/Music/Music/Playlists/100_CLR.dbpl
-gtkui.layout.1.9.0 {"type":"vbox","legacy_params":" expand=\"0 1\" fill=\"1 1\" homogeneous=0","children":[{"type":"hbox","legacy_params":" expand=\"0 1 0\" fill=\"1 1 1\" homogeneous=0","children":[{"type":"playtb"},{"type":"seekbar"},{"type":"volumebar","settings":{"scale":"db"}}]},{"type":"tabbed_playlist","legacy_params":" hideheaders=0 width=1908"}]}
+gtkui.layout.1.9.0 {"type":"vbox","legacy_params":" expand=\"0 1\" fill=\"1 1\" homogeneous=0","children":[{"type":"hbox","legacy_params":" expand=\"0 1 0\" fill=\"1 1 1\" homogeneous=0","children":[{"type":"playtb"},{"type":"seekbar"},{"type":"volumebar","settings":{"scale":"db"}}]},{"type":"tabbed_playlist","legacy_params":" hideheaders=0 width=1898"}]}
+gtkui.override_bar_colors 0
+gtkui.override_listview_colors 0
+gtkui.override_tabstrip_colors 0
 gtkui.playlist.group_by_tf 
 gtkui.search.group_by_tf 
-gtkui.statusbar.visible 1
+gtkui.statusbar.visible 0
 gtkui.tabscroll 0
+gtkui.titlebar_playing_tf DeaDBeeF - %artist% - %title%
+gtkui.titlebar_stopped_tf DeaDBeeF
+gtkui.vis.use_custom_base_color 0
 hotkey.key01 "Ctrl f" 0 0 find
 hotkey.key02 "Ctrl o" 0 0 open_files
 hotkey.key03 "Ctrl q" 0 0 quit
@@ -119,17 +175,19 @@ logwindow.geometry.w 948
 logwindow.geometry.x 964
 logwindow.geometry.y 24
 mainwin.geometry.h 1048
+mainwin.geometry.maximized 1
 mainwin.geometry.w 1908
-mainwin.geometry.x 4
-mainwin.geometry.y 24
+mainwin.geometry.x 0
+mainwin.geometry.y 0
+network.proxy.port 8080
 output_plugin alsa
 playback.loop 1
-playback.order 1
-playback.volume.normalized 1.0000000
+playback.order 2
+playback.volume.normalized 0.3808690
 playlist.current 2
 playlist.cursor.0 92
 playlist.cursor.1 -1
-playlist.cursor.2 0
+playlist.cursor.2 2
 playlist.cursor.3 -1
 playlist.scroll.0 -92
 playlist.scroll.1 0
@@ -140,7 +198,15 @@ playlist.tab.00000 All
 playlist.tab.00001 A9
 playlist.tab.00002 100 Greatest Classic Rock (2020)
 playlist.tab.00003 WD_
-resume.paused 1
-resume.playlist 2
-resume.position 41.378128
-resume.track 0
+prefwin.geometry.h 631
+prefwin.geometry.maximized 1
+prefwin.geometry.w 788
+prefwin.geometry.x 0
+prefwin.geometry.y 0
+resume.paused 0
+resume.playlist -1
+resume.position -1.000000
+resume.track -1
+streamer.samplerate 44100
+streamer.samplerate_mult_44 44100
+streamer.samplerate_mult_48 48000

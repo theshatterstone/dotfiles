@@ -1,5 +1,5 @@
-delay=1
-region=1
+delay=5
+region=3
 action=1
 show_mouse=0
 title=ArcoLinux
@@ -10,4 +10,5 @@ last_extension=png
 screenshot_dir=file:/home/shatterstone/Pictures
 enable_imgur_upload=true
 show_border=1
+show_in_folder=false
 

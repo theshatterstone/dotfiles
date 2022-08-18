@@ -9,4 +9,4 @@ TryExec=feh --bg-fill --randomize /home/shatterstone/wallpapers
 StartupNotify=false
 X-GNOME-Autostart-enabled=true
 Terminal=false
-Hidden=false
+Hidden=true

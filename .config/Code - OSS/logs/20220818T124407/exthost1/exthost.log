@@ -1,0 +1,64 @@
+[2022-08-18 12:44:09.499] [exthost] [info] Extension host with pid 924292 started
+[2022-08-18 12:44:09.624] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-08-18 12:44:09.628] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+[2022-08-18 12:44:09.631] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2022-08-18 12:44:09.643] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2022-08-18 12:44:09.672] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-08-18 12:44:09.739] [exthost] [info] Eager extensions activated
+[2022-08-18 12:44:09.771] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-08-18 12:44:09.776] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-08-18 12:44:16.099] [exthost] [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+[2022-08-18 12:48:58.975] [exthost] [info] Extension host terminating: received terminate message from renderer
+[2022-08-18 12:48:58.983] [exthost] [error] Canceled: Canceled
+	at Object.R [as canceled] (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:7:1204)
+	at /usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:95:9094
+	at Array.forEach (<anonymous>)
+	at o.dispose (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:95:9042)
+	at w.terminate (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:97:10969)
+	at w.terminate (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:101:620)
+	at m (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:111:19088)
+	at /usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:111:17016
+	at w.invoke (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:61:145)
+	at b.deliver (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:61:2266)
+	at p.fire (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:61:1844)
+	at c.fire (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:69:19006)
+	at i._receiveMessage (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:69:23593)
+	at /usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:69:21127
+	at w.invoke (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:61:145)
+	at b.deliver (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:61:2266)
+	at p.fire (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:61:1844)
+	at p.acceptChunk (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:69:15837)
+	at /usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:69:14967
+	at Socket.l (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:69:26303)
+	at Socket.emit (node:events:390:28)
+	at addChunk (node:internal/streams/readable:315:12)
+	at readableAddChunk (node:internal/streams/readable:289:9)
+	at Socket.Readable.push (node:internal/streams/readable:228:10)
+	at Pipe.onStreamRead (node:internal/stream_base_commons:199:23) git.commit {"value":"vscode.git","_lower":"vscode.git"}
+[2022-08-18 12:48:58.984] [exthost] [error] Canceled: Canceled
+	at Object.R [as canceled] (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:7:1204)
+	at /usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:95:9094
+	at Array.forEach (<anonymous>)
+	at o.dispose (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:95:9042)
+	at w.terminate (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:97:10969)
+	at w.terminate (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:101:620)
+	at m (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:111:19088)
+	at /usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:111:17016
+	at w.invoke (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:61:145)
+	at b.deliver (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:61:2266)
+	at p.fire (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:61:1844)
+	at c.fire (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:69:19006)
+	at i._receiveMessage (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:69:23593)
+	at /usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:69:21127
+	at w.invoke (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:61:145)
+	at b.deliver (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:61:2266)
+	at p.fire (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:61:1844)
+	at p.acceptChunk (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:69:15837)
+	at /usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:69:14967
+	at Socket.l (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:69:26303)
+	at Socket.emit (node:events:390:28)
+	at addChunk (node:internal/streams/readable:315:12)
+	at readableAddChunk (node:internal/streams/readable:289:9)
+	at Socket.Readable.push (node:internal/streams/readable:228:10)
+	at Pipe.onStreamRead (node:internal/stream_base_commons:199:23) _vscode_delegate_cmd_l6yz5ul1 undefined
+[2022-08-18 12:48:58.984] [exthost] [info] Extension host with pid 924292 exiting with code 0

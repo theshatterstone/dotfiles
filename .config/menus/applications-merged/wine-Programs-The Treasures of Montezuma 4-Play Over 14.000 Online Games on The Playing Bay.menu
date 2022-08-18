@@ -1,0 +1,20 @@
+<!DOCTYPE Menu PUBLIC "-//freedesktop//DTD Menu 1.0//EN"
+"http://www.freedesktop.org/standards/menu-spec/menu-1.0.dtd">
+<Menu>
+  <Name>Applications</Name>
+  <Menu>
+    <Name>wine-wine</Name>
+    <Directory>wine-wine.directory</Directory>
+  <Menu>
+    <Name>wine-Programs</Name>
+    <Directory>wine-Programs.directory</Directory>
+  <Menu>
+    <Name>wine-Programs-The Treasures of Montezuma 4</Name>
+    <Directory>wine-Programs-The Treasures of Montezuma 4.directory</Directory>
+    <Include>
+      <Filename>wine-Programs-The Treasures of Montezuma 4-Play Over 14.000 Online Games on The Playing Bay.desktop</Filename>
+    </Include>
+  </Menu>
+  </Menu>
+  </Menu>
+</Menu>

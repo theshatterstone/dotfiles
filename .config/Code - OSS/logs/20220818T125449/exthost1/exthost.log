@@ -1,0 +1,21 @@
+[2022-08-18 12:54:52.998] [exthost] [info] Extension host with pid 932365 started
+[2022-08-18 12:54:53.145] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-08-18 12:54:53.151] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+[2022-08-18 12:54:53.153] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2022-08-18 12:54:53.216] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2022-08-18 12:54:53.237] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-08-18 12:54:53.521] [exthost] [info] Eager extensions activated
+[2022-08-18 12:54:53.595] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-08-18 12:54:53.601] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-08-18 12:58:18.584] [exthost] [info] Extension host terminating: received terminate message from renderer
+[2022-08-18 12:58:18.594] [exthost] [info] Extension host with pid 932365 exiting with code 0
+[2022-08-18 12:58:21.250] [exthost] [info] Extension host with pid 934721 started
+[2022-08-18 12:58:21.250] [exthost] [info] Skipping acquiring lock for /home/shatterstone/.config/Code - OSS/User/workspaceStorage/12be227f1fce80688ca51ccf498db3bf.
+[2022-08-18 12:58:21.347] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-08-18 12:58:21.352] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+[2022-08-18 12:58:21.356] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2022-08-18 12:58:21.372] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2022-08-18 12:58:21.404] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-08-18 12:58:21.440] [exthost] [info] Eager extensions activated
+[2022-08-18 12:58:21.454] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-08-18 12:58:21.460] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'

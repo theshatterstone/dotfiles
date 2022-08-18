@@ -9,4 +9,4 @@ TryExec=picom -b --config ~/.config/picom.conf
 StartupNotify=false
 X-GNOME-Autostart-enabled=true
 Terminal=false
-Hidden=false
+Hidden=true

@@ -9,4 +9,4 @@ TryExec=nitrogen --restore
 StartupNotify=false
 X-GNOME-Autostart-enabled=true
 Terminal=false
-Hidden=false
+Hidden=true

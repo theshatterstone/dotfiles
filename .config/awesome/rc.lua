@@ -102,7 +102,7 @@ local themes = {
 }
 
 -- choose your theme here
-local chosen_theme = themes[1]
+local chosen_theme = themes[3]
 
 local theme_path = string.format("%s/.config/awesome/themes/%s/theme.lua", os.getenv("HOME"), chosen_theme)
 beautiful.init(theme_path)
@@ -341,6 +341,8 @@ globalkeys = my_table.join(
         {description = mediaplayer , group = "function keys" }),
     awful.key({ modkey }, "p", function () awful.util.spawn( "rofi -combi-modi drun,run -show combi" ) end,
         {description = "run rofi combi mode" , group = "function keys" }),
+    awful.key({ modkey }, "e", function () awful.util.spawn("emacsclient -c -a 'emacs'") end,
+        {description = "launch emacs client", group = "function keys"}),
 --    awful.key({ modkey }, "l", function () awful.util.spawn( "rofi -show drun" ) end,
 --        {description = "run rofi drun" , group = "function keys" }),
     -- super + ...

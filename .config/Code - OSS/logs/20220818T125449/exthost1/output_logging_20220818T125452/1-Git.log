@@ -1,0 +1,22 @@
+[2022-08-18T11:54:53.492Z] Log level: Info
+[2022-08-18T11:54:53.493Z] [info] Validating found git in: git
+[2022-08-18T11:54:53.507Z] [info] Using git 2.37.2 from git
+[2022-08-18T11:54:53.522Z] > git rev-parse --show-toplevel [3ms]
+[2022-08-18T11:54:53.531Z] > git rev-parse --git-dir --git-common-dir [2ms]
+[2022-08-18T11:54:53.541Z] [info] Open repository: /home/shatterstone/Documents/fetch
+[2022-08-18T11:54:53.551Z] > git status -z -uall [1ms]
+[2022-08-18T11:54:53.558Z] > git symbolic-ref --short HEAD [1ms]
+[2022-08-18T11:54:53.567Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+[2022-08-18T11:54:53.580Z] > git remote --verbose [2ms]
+[2022-08-18T11:54:53.581Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [8ms]
+[2022-08-18T11:54:53.604Z] > git config --get commit.template [13ms]
+[2022-08-18T11:54:53.613Z] > git status -z -uall [1ms]
+[2022-08-18T11:54:53.619Z] > git symbolic-ref --short HEAD [1ms]
+[2022-08-18T11:54:53.625Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+[2022-08-18T11:54:53.636Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [6ms]
+[2022-08-18T11:54:53.638Z] > git remote --verbose [3ms]
+[2022-08-18T11:54:53.646Z] > git config --get commit.template [1ms]
+[2022-08-18T11:54:53.882Z] > git show --textconv :fetch.sh [7ms]
+[2022-08-18T11:54:53.883Z] > git ls-files --stage -- /home/shatterstone/Documents/fetch/fetch.sh [2ms]
+[2022-08-18T11:54:53.890Z] > git cat-file -s 4dd587f6860c0648abd66015364a2a1cc8b75376 [2ms]
+[2022-08-18T11:54:54.169Z] > git check-ignore -v -z --stdin [2ms]
