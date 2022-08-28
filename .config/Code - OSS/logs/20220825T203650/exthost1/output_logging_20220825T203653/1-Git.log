@@ -1,0 +1,23 @@
+[2022-08-25T19:36:53.455Z] Log level: Info
+[2022-08-25T19:36:53.456Z] [info] Validating found git in: git
+[2022-08-25T19:36:53.471Z] [info] Using git 2.37.2 from git
+[2022-08-25T19:36:53.486Z] > git rev-parse --show-toplevel [4ms]
+[2022-08-25T19:36:53.497Z] > git rev-parse --git-dir --git-common-dir [4ms]
+[2022-08-25T19:36:53.501Z] [info] Open repository: /home/shatterstone/Documents/fetch
+[2022-08-25T19:36:53.541Z] > git status -z -uall [30ms]
+[2022-08-25T19:36:53.550Z] > git rev-parse --show-toplevel [31ms]
+[2022-08-25T19:36:53.550Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-08-25T19:36:53.552Z] > git symbolic-ref --short HEAD [5ms]
+[2022-08-25T19:36:53.567Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [8ms]
+[2022-08-25T19:36:53.583Z] > git remote --verbose [4ms]
+[2022-08-25T19:36:53.583Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [11ms]
+[2022-08-25T19:36:53.594Z] > git config --get commit.template [1ms]
+[2022-08-25T19:36:53.605Z] > git status -z -uall [2ms]
+[2022-08-25T19:36:53.614Z] > git symbolic-ref --short HEAD [2ms]
+[2022-08-25T19:36:53.623Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+[2022-08-25T19:36:53.638Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [6ms]
+[2022-08-25T19:36:53.639Z] > git remote --verbose [2ms]
+[2022-08-25T19:36:53.648Z] > git config --get commit.template [1ms]
+[2022-08-25T19:36:54.038Z] > git check-ignore -v -z --stdin [2ms]
+[2022-08-25T19:36:56.730Z] > git rev-parse --show-toplevel [1ms]
+[2022-08-25T19:36:56.730Z] fatal: not a git repository (or any of the parent directories): .git

@@ -1,0 +1,3 @@
+[2022-08-26 12:48:52.544] [exthost] [info] Extension host with pid 99207 started
+[2022-08-26 12:48:52.550] [exthost] [info] Extension host terminating: renderer closed the socket
+[2022-08-26 12:48:52.550] [exthost] [info] Extension host with pid 99207 exiting with code 0

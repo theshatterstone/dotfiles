@@ -1,0 +1,23 @@
+00:00:02.492311 VirtualBox GUI VM Selector Window 6.1.36 r152435 linux.amd64 (Jul 21 2022 10:08:57) release log
+00:00:02.492312 Log opened 2022-08-12T17:02:50.247429000Z
+00:00:02.492313 Build Type: release
+00:00:02.492314 OS Product: Linux
+00:00:02.492314 OS Release: 5.18.16-arch1-1
+00:00:02.492315 OS Version: #1 SMP PREEMPT_DYNAMIC Wed, 03 Aug 2022 11:25:04 +0000
+00:00:02.492330 DMI Product Name: Aspire A515-44
+00:00:02.492334 DMI Product Version: V1.11
+00:00:02.492337 Firmware type: UEFI
+00:00:02.492514 Secure Boot: Disabled
+00:00:02.492539 Host RAM: 7311MB (7.1GB) total, 5122MB (5.0GB) available
+00:00:02.492540 Executable: /usr/lib/virtualbox/VirtualBox
+00:00:02.492540 Process ID: 354944
+00:00:02.492541 Package type: LINUX_64BITS_GENERIC (OSE)
+00:00:02.492571 Qt version: 5.15.5
+00:00:02.499091 GUI: UIMediumEnumerator: Medium-enumeration started...
+00:00:02.984190 GUI: UIDesktopWidgetWatchdog::sltHandleHostScreenAvailableGeometryCalculated: Screen 0 work area is actually resized to: 2x22 x 1908x1048
+00:00:02.994375 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:01:54.381308 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:02:16.084107 GUI: UIMediumEnumerator: Medium with key={{5894999a-7fe7-4211-aa88-33108f34915b}} created
+00:02:16.096094 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:02:19.801074 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:02:19.840891 GUI: UIMediumEnumerator: Medium-enumeration finished!

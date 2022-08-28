@@ -1,0 +1,10 @@
+{
+  "allowed_origins": [
+    "chrome-extension:\/\/ahmpjcflkgiildlgicmcieglgoilbfdp\/",
+    "chrome-extension:\/\/mdfcjfioplkdchnhcpcobaheocanedjg\/"
+  ],
+  "description": "Free Download Manager",
+  "name": "org.freedownloadmanager.fdm5.cnh",
+  "path": "\/opt\/freedownloadmanager\/wenativehost",
+  "type": "stdio"
+}

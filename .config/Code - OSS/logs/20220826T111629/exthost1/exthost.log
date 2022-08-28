@@ -1,0 +1,12 @@
+[2022-08-26 11:16:32.414] [exthost] [info] Extension host with pid 29908 started
+[2022-08-26 11:16:32.414] [exthost] [info] Skipping acquiring lock for /home/shatterstone/.config/Code - OSS/User/workspaceStorage/d3d17a82503c0c6b8f1d243e7f3e7378.
+[2022-08-26 11:16:32.829] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-08-26 11:16:32.854] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+[2022-08-26 11:16:32.867] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2022-08-26 11:16:32.888] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2022-08-26 11:16:32.905] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-08-26 11:16:32.951] [exthost] [info] Eager extensions activated
+[2022-08-26 11:16:33.146] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-08-26 11:16:33.152] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-08-26 11:17:59.393] [exthost] [info] Extension host terminating: received terminate message from renderer
+[2022-08-26 11:17:59.405] [exthost] [info] Extension host with pid 29908 exiting with code 0

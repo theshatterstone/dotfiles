@@ -1,7 +1,7 @@
 cli_add_playlist_name Default
 deadbeef_version 1.9.1
-filechooser.lastdir file:///home/shatterstone/Music/Music
-filechooser.playlist.lastdir file:///home/shatterstone/Music
+filechooser.lastdir file:///home/shatterstone/Music/Music/Top%20500%20Classic%20Rock%20songs%20(2011)%20-%20SMG/Tracks
+filechooser.playlist.lastdir file:///home/shatterstone/Music/Music/Playlists
 gtkui.color.bar_background 0 0 0
 gtkui.color.bar_foreground 13621 33924 58596
 gtkui.color.listview_column_text 24158 23644 25700
@@ -64,10 +64,10 @@ hotkey.key30 b 0 0 next
 hotkey.key31 n 0 0 playback_random
 hotkey.key32 "Ctrl k" 0 0 toggle_stop_after_album
 hotkeys_created 1
-logwindow.geometry.h 1048
-logwindow.geometry.w 948
-logwindow.geometry.x 964
-logwindow.geometry.y 24
+logwindow.geometry.h 1038
+logwindow.geometry.w 938
+logwindow.geometry.x 967
+logwindow.geometry.y 27
 mainwin.geometry.h 1048
 mainwin.geometry.maximized 1
 mainwin.geometry.w 1908
@@ -76,38 +76,41 @@ mainwin.geometry.y 0
 network.proxy.port 8080
 output_plugin alsa
 playback.loop 1
-playback.order 2
+playback.order 0
 playback.volume.normalized 0.3808690
-playlist.current 2
-playlist.cursor.0 92
-playlist.cursor.1 -1
-playlist.cursor.2 2
-playlist.cursor.3 -1
-playlist.scroll.0 -92
+playlist.current 4
+playlist.cursor.0 54
+playlist.cursor.1 3
+playlist.cursor.2 -1
+playlist.cursor.3 2
+playlist.cursor.4 0
+playlist.scroll.0 703
 playlist.scroll.1 0
 playlist.scroll.2 0
 playlist.scroll.3 0
+playlist.scroll.4 0
 playlist.scroll.cursorfollowplayback 1
 playlist.tab.00000 All
 playlist.tab.00001 A9
 playlist.tab.00002 100 Greatest Classic Rock (2020)
 playlist.tab.00003 WD_
+playlist.tab.00004 Default
 prefwin.geometry.h 631
 prefwin.geometry.maximized 1
 prefwin.geometry.w 788
 prefwin.geometry.x 0
 prefwin.geometry.y 0
-resume.paused 0
-resume.playlist -1
-resume.position -1.000000
-resume.track -1
+resume.paused 1
+resume.playlist 4
+resume.position 122.18394
+resume.track 3
 streamer.samplerate 44100
 streamer.samplerate_mult_44 44100
 streamer.samplerate_mult_48 48000
 cli_add_playlist_name Default
 deadbeef_version 1.9.1
-filechooser.lastdir file:///home/shatterstone/Music/Music
-filechooser.playlist.lastdir file:///home/shatterstone/Music
+filechooser.lastdir file:///home/shatterstone/Music/Music/Top%20500%20Classic%20Rock%20songs%20(2011)%20-%20SMG/Tracks
+filechooser.playlist.lastdir file:///home/shatterstone/Music/Music/Playlists
 gtkui.color.bar_background 0 0 0
 gtkui.color.bar_foreground 13621 33924 58596
 gtkui.color.listview_column_text 24158 23644 25700
@@ -170,10 +173,10 @@ hotkey.key30 b 0 0 next
 hotkey.key31 n 0 0 playback_random
 hotkey.key32 "Ctrl k" 0 0 toggle_stop_after_album
 hotkeys_created 1
-logwindow.geometry.h 1048
-logwindow.geometry.w 948
-logwindow.geometry.x 964
-logwindow.geometry.y 24
+logwindow.geometry.h 1038
+logwindow.geometry.w 938
+logwindow.geometry.x 967
+logwindow.geometry.y 27
 mainwin.geometry.h 1048
 mainwin.geometry.maximized 1
 mainwin.geometry.w 1908
@@ -182,31 +185,34 @@ mainwin.geometry.y 0
 network.proxy.port 8080
 output_plugin alsa
 playback.loop 1
-playback.order 2
+playback.order 0
 playback.volume.normalized 0.3808690
-playlist.current 2
-playlist.cursor.0 92
-playlist.cursor.1 -1
-playlist.cursor.2 2
-playlist.cursor.3 -1
-playlist.scroll.0 -92
+playlist.current 4
+playlist.cursor.0 54
+playlist.cursor.1 3
+playlist.cursor.2 -1
+playlist.cursor.3 2
+playlist.cursor.4 0
+playlist.scroll.0 703
 playlist.scroll.1 0
 playlist.scroll.2 0
 playlist.scroll.3 0
+playlist.scroll.4 0
 playlist.scroll.cursorfollowplayback 1
 playlist.tab.00000 All
 playlist.tab.00001 A9
 playlist.tab.00002 100 Greatest Classic Rock (2020)
 playlist.tab.00003 WD_
+playlist.tab.00004 Default
 prefwin.geometry.h 631
 prefwin.geometry.maximized 1
 prefwin.geometry.w 788
 prefwin.geometry.x 0
 prefwin.geometry.y 0
-resume.paused 0
-resume.playlist -1
-resume.position -1.000000
-resume.track -1
+resume.paused 1
+resume.playlist 4
+resume.position 122.18394
+resume.track 3
 streamer.samplerate 44100
 streamer.samplerate_mult_44 44100
 streamer.samplerate_mult_48 48000

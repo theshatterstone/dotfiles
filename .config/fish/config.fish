@@ -13,3 +13,5 @@ alias update="sudo pacman -Syyu && flatpak update"
 #neofetch --ascii_distro slackware
 #colorscript -r
 ./Documents/fetch/fetch.sh
+
+starship init fish | source
